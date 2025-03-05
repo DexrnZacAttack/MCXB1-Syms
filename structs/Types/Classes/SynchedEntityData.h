@@ -1,0 +1,4 @@
+
+struct SynchedEntityData {
+    Entity entity;
+}

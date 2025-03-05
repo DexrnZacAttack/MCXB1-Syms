@@ -1,0 +1,3 @@
+
+struct locale {
+} // PlaceHolder Structure

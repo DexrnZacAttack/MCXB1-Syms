@@ -1,0 +1,1 @@
+typedef ushort wint_t; // Unsigned Short Integer (compiler-specific size)

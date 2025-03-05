@@ -1,0 +1,4 @@
+
+struct DataFixerUpper {
+    void * * vftable;
+}

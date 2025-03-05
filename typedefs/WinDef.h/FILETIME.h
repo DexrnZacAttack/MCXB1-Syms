@@ -1,0 +1,1 @@
+typedef WinDef.h/_FILETIME FILETIME;

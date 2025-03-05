@@ -1,0 +1,1 @@
+typedef WinDef.h/DWORD * LPDWORD; // pointer to DWORD

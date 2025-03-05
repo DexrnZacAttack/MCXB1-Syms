@@ -1,0 +1,43 @@
+
+struct ProgressRenderer {
+    undefined * * field_0;
+    undefined field_8;
+    undefined field_9;
+    undefined field_10;
+    undefined field_11;
+    undefined4 field_12;
+    undefined8 * field_16;
+    undefined field_24;
+    undefined field_25;
+    undefined field_26;
+    undefined field_27;
+    undefined field_28;
+    undefined field_29;
+    undefined field_30;
+    undefined field_31;
+    undefined8 field_32;
+    ulonglong field_40;
+    Types/Classes/Minecraft * field_48;
+    char field_56;
+    undefined field_57;
+    undefined field_58;
+    undefined field_59;
+    undefined4 field_60;
+    undefined8 * field_64;
+    undefined field_72;
+    undefined field_73;
+    undefined field_74;
+    undefined field_75;
+    undefined field_76;
+    undefined field_77;
+    undefined field_78;
+    undefined field_79;
+    undefined8 field_80;
+    ulonglong field_88;
+    undefined8 field_96;
+    undefined field_104;
+    undefined field_105;
+    undefined field_106;
+    undefined field_107;
+    int percentage;
+} // PlaceHolder Class Structure

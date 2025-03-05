@@ -1,0 +1,4 @@
+
+struct ServerPlayer {
+    Player inherit;
+}

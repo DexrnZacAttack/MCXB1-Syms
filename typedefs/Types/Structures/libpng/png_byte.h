@@ -1,0 +1,1 @@
+typedef byte png_byte; // Unsigned Byte (db)

@@ -1,0 +1,1 @@
+typedef _s__RTTIClassHierarchyDescriptor RTTIClassHierarchyDescriptor;

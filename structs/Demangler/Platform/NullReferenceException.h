@@ -1,0 +1,3 @@
+
+struct NullReferenceException {
+} // PlaceHolder Structure

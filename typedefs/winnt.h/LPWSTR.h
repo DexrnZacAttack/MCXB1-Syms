@@ -1,0 +1,1 @@
+typedef winnt.h/WCHAR * LPWSTR; // pointer to WCHAR

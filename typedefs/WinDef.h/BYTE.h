@@ -1,0 +1,1 @@
+typedef uchar BYTE; // Unsigned Character (ASCII)

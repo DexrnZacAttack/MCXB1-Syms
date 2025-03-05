@@ -1,0 +1,1 @@
+typedef long LONG; // Signed Long Integer (compiler-specific size)

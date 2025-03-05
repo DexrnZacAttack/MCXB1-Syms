@@ -1,0 +1,1 @@
+typedef long HRESULT; // Signed Long Integer (compiler-specific size)

@@ -1,0 +1,1 @@
+typedef WinDef.h/HSTR__ * HSTRING; // pointer to HSTR__

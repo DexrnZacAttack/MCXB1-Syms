@@ -1,0 +1,1 @@
+typedef char * png_const_charp; // pointer to char

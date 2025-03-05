@@ -1,0 +1,1 @@
+typedef ulonglong * PDWORD64; // pointer to ulonglong

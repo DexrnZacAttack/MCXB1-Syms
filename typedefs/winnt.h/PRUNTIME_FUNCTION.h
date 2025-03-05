@@ -1,0 +1,1 @@
+typedef winnt.h/_RUNTIME_FUNCTION * PRUNTIME_FUNCTION; // pointer to _RUNTIME_FUNCTION

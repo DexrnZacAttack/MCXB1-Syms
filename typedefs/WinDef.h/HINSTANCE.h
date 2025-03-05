@@ -1,0 +1,1 @@
+typedef WinDef.h/HINSTANCE__ * HINSTANCE; // pointer to HINSTANCE__

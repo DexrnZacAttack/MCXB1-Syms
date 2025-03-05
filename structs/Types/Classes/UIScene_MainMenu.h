@@ -1,0 +1,3 @@
+
+struct UIScene_MainMenu {
+}

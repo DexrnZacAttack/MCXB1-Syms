@@ -1,0 +1,1 @@
+typedef ushort u_short; // Unsigned Short Integer (compiler-specific size)

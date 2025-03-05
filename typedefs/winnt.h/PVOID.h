@@ -1,0 +1,1 @@
+typedef void * PVOID; // pointer to void

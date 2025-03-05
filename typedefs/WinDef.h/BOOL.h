@@ -1,0 +1,1 @@
+typedef int BOOL; // Signed Integer (compiler-specific size)

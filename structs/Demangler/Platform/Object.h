@@ -1,0 +1,3 @@
+
+struct Object {
+} // PlaceHolder Structure

@@ -1,0 +1,1 @@
+typedef winnt.h/RTL_SRWLOCK * PSRWLOCK; // pointer to RTL_SRWLOCK

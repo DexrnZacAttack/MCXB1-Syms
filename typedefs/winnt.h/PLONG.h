@@ -1,0 +1,1 @@
+typedef winnt.h/LONG * PLONG; // pointer to LONG
