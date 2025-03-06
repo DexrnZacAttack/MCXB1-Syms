@@ -22,7 +22,7 @@ struct Minecraft {
     undefined4 field_36;
     int field_40;
     undefined4 field_44;
-    SoundEngine * field_48;
+    Timer * timer;
     undefined1 field_56;
     undefined field_57;
     undefined field_58;

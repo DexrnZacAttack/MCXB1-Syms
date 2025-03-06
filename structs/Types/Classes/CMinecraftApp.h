@@ -899,7 +899,8 @@ struct CMinecraftApp {
     undefined field_998;
     undefined field_999;
     undefined4 field_1000;
-    undefined2 field_1004;
+    bool liveLinkRequired;
+    undefined field_1005;
     undefined field_1006;
     undefined field_1007;
     undefined field_1008;
@@ -1925,7 +1926,7 @@ struct CMinecraftApp {
     bool resetEnd;
     undefined field_2298;
     undefined field_2299;
-    undefined4 field_2300;
+    undefined4 requiredTexturePackId;
     undefined8 field_2304;
     undefined8 field_2312;
     undefined8 field_2320;
