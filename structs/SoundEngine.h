@@ -1,6 +1,6 @@
 
 struct SoundEngine {
-    undefined * * field_0;
+    void * * vftable;
     undefined field_8;
     undefined field_9;
     undefined field_10;

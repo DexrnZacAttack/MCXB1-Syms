@@ -11598,9 +11598,23 @@
 140f98f40;TypeDescriptor.name;0;
 140f98fc8;TypeDescriptor.name;0;
 1401a5e60;mmmmm floating point operations look funny in x86;1;
+14022aad5;Fireball::addDataWalkers;1;
+14036ab20;thunk?;1;
+14036acd5;seems to be some kind of minecart container thing;1;
+1404c9ba5;Arrow::addDataWalkers;1;
+1404c9e75;Fireball::addDataWalkers;1;
 1405104d3;getMaxX;1;
 140510512;getMinZ;1;
 14076157a;BlockRenderer::BlockRenderer inlined;1;
+1407c69f1;Arrow::addDataWalkers;1;
+1407c6a61;FallingBlockEntity::addDataWalkers;1;
+1407c6ac9;MinecartFurnace::addDataWalkers;1;
+1407c6b61;Snowball::addDataWalkers;1;
+1407c6b89;ThrownEgg::addDataWalkers;1;
+1407c6b91;ThrownEnderpearl::addDataWalkers;1;
+1407c6b99;ThrownExpBottle::addDataWalkers;1;
+1407c6c11;PistonMovingBlockEntity::addDataWalkers;1;
+1407c6c19;FlowerPotBlockEntity::addDataWalkers;1;
 140861916;Minecraft::getItemRenderer;1;
 140865d36;Minecraft:getEntityRenderDispatcher;1;
 1408af66f;msvc strikes again
@@ -12363,6 +12377,7 @@ Library: Visual Studio 2015 Release;3;
  public: virtual class Platform::String ^ __ptr64 __cdecl Platform::Details::IPrintable::ToString(void) __ptr64
 
 Library: Visual Studio 2012 Release;3;
+14017a6b0;These might be incorrect, Wii U shows it only having one param (eINSTANCEOF) but the pseudocode is fucked if I match it.;3;
 14017b490;Seems to also be Direction::getSerializedName;3;
 140187bb0;not thiscall????;3;
 14018fc00;neighbourVisibleThroughShape got inlined;3;
@@ -12397,6 +12412,7 @@ Library: Visual Studio 2015 Release;3;
 14036328a;LevelChunk::staticCtor got inlined here;3;
 1403632b4;VillagePieces::Smithy::staticCtor;3;
 1403636af;SparseLightStorage::staticCtor;3;
+14036ac00;GUESSED: Most methods that try to add a data walker for minecarts with container storage call this.;3;
 1406957a0;Library Function - Single Match
  public: virtual void * __ptr64 __cdecl Concurrency::details::_AsyncTaskCollection::`scalar deleting destructor'(unsigned int) __ptr64
 
