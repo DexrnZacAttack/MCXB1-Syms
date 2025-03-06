@@ -1,7 +1,7 @@
 
 struct UIScene_FullscreenProgress {
     undefined * * field_0;
-    Types/Classes/std/std::basic_string<wchar_t> field_8;
+    Types/Classes/std/basic_string<wchar_t> field_8;
     fuiFile * field_40;
     undefined field_48;
     undefined field_49;
@@ -201,7 +201,7 @@ struct UIScene_FullscreenProgress {
     undefined field_405;
     undefined field_406;
     undefined field_407;
-    Types/Classes/std/std::basic_string<wchar_t> * field_408;
+    Types/Classes/std/basic_string<wchar_t> * field_408;
     undefined field_416;
     undefined field_417;
     undefined field_418;
@@ -219,7 +219,7 @@ struct UIScene_FullscreenProgress {
     undefined field_430;
     undefined field_431;
     ulonglong field_432;
-    Types/Classes/std/std::basic_string<wchar_t> * field_440;
+    Types/Classes/std/basic_string<wchar_t> * field_440;
     undefined field_448;
     undefined field_449;
     undefined field_450;
@@ -2228,5 +2228,5 @@ struct UIScene_FullscreenProgress {
     undefined field_3421;
     undefined field_3422;
     undefined field_3423;
-    Types/Classes/std/std::basic_string<wchar_t> field_3424;
+    Types/Classes/std/basic_string<wchar_t> field_3424;
 } // PlaceHolder Class Structure

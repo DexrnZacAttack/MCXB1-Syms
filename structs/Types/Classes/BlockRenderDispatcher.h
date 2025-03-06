@@ -1,3 +1,4 @@
 
 struct BlockRenderDispatcher {
+    BlockRenderer * blockRenderer;
 }

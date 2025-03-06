@@ -72,7 +72,7 @@ struct ModelPart {
     undefined field_141;
     undefined field_142;
     undefined field_143;
-    Types/Classes/std/std::basic_string<wchar_t> id;
+    Types/Classes/std/basic_string<wchar_t> id;
     undefined field_176;
     undefined field_177;
     undefined field_178;

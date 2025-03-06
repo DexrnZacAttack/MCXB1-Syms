@@ -11600,6 +11600,15 @@
 1401a5e60;mmmmm floating point operations look funny in x86;1;
 1405104d3;getMaxX;1;
 140510512;getMinZ;1;
+14076157a;BlockRenderer::BlockRenderer inlined;1;
+140861916;Minecraft::getItemRenderer;1;
+140865d36;Minecraft:getEntityRenderDispatcher;1;
+1408af66f;msvc strikes again
+meant to be ParticleType::getId;1;
+1408ee4db;names the user
+Player{time}
+
+e.g Player948;1;
 140acd000;74  ??0scoped_lock@critical_section@Concurrency@@QEAA@AEAV12@@Z  <<not bound>>;1;
 140acd008;97  ??1scoped_lock@critical_section@Concurrency@@QEAA@XZ  <<not bound>>;1;
 140acd010;35  ??0critical_section@Concurrency@@QEAA@XZ  <<not bound>>;1;
@@ -12419,6 +12428,8 @@ Library: Visual Studio 2012 Release;3;
  protected: virtual int __cdecl std::basic_stringbuf<char,struct std::char_traits<char>,class std::allocator<char> >::underflow(void) __ptr64
 
 Libraries: Visual Studio 2012 Release, Visual Studio 2015 Release;3;
+14084f2f0;might be 4 floats instead of 4 doubles;3;
+140859430;TODO;3;
 14086c8d2;these 2 should not exist;3;
 14086fbf0;Library Function - Single Match
  public: virtual void * __ptr64 __cdecl Concurrency::details::_AsyncTaskCollection::`scalar deleting destructor'(unsigned int) __ptr64
@@ -12432,7 +12443,6 @@ Library: Visual Studio 2015 Release;3;
 14089ec40;Minecraft::init was inlined here I think;3;
 1408a75e7;Rebuild chunk thread;3;
 1408dee1c;GameSettings::IsDebugSettingEnabled;3;
-1408ee360;Minecraft::startAndConnectTo got inlined;3;
 14092c005;Textures::bind inlined;3;
 140941660;PlayerList::getViewDistance and PlayerChunkMap::convertChunkRangeToBlock inlined here;3;
 14098b5a3;AbstractClientPlayer::tick;3;

@@ -16,10 +16,10 @@ struct Item {
     undefined field_54;
     undefined field_55;
     undefined8 field_56;
-    Types/Classes/std/std::basic_string<wchar_t> field_64;
+    Types/Classes/std/basic_string<wchar_t> field_64;
     int descriptionId;
     uint useDescriptionId; // Created by retype action
-    Types/Classes/std/std::basic_string<wchar_t> field_104;
+    Types/Classes/std/basic_string<wchar_t> field_104;
     undefined field_136;
     undefined field_137;
     undefined field_138;

@@ -17,8 +17,8 @@ struct TextureAtlas {
     undefined field_31;
     undefined8 field_32;
     ulonglong field_40;
-    Types/Classes/std/std::basic_string<wchar_t> field_48;
-    Types/Classes/std/std::basic_string<wchar_t> field_80;
+    Types/Classes/std/basic_string<wchar_t> field_48;
+    Types/Classes/std/basic_string<wchar_t> field_80;
     bool field_112;
     undefined field_113;
     undefined field_114;

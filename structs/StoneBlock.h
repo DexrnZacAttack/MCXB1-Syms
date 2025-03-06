@@ -9,7 +9,7 @@ struct StoneBlock {
     undefined field_13;
     undefined field_14;
     undefined field_15;
-    Types/Classes/std/std::basic_string<wchar_t> * field_16;
+    Types/Classes/std/basic_string<wchar_t> * field_16;
     undefined field_24;
     undefined field_25;
     undefined field_26;

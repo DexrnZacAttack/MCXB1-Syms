@@ -25,7 +25,7 @@ struct ClientboundPreLoginPacket {
     undefined field_90;
     undefined field_91;
     undefined4 field_92;
-    Types/Classes/std/std::basic_string<wchar_t> * field_96;
+    Types/Classes/std/basic_string<wchar_t> * field_96;
     undefined field_104;
     undefined field_105;
     undefined field_106;

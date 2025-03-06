@@ -1,6 +1,6 @@
 
 struct RoundInfo {
-    Types/Classes/std/std::basic_string<wchar_t> * field_0;
+    Types/Classes/std/basic_string<wchar_t> * field_0;
     undefined field_8;
     undefined field_9;
     undefined field_10;
@@ -11,7 +11,7 @@ struct RoundInfo {
     undefined field_15;
     ulonglong field_16;
     ulonglong field_24;
-    Types/Classes/std/std::basic_string<wchar_t> * field_32;
+    Types/Classes/std/basic_string<wchar_t> * field_32;
     undefined field_40;
     undefined field_41;
     undefined field_42;

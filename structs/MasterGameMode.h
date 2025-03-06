@@ -292,7 +292,7 @@ struct MasterGameMode {
     undefined8 field_784;
     StringTable * field_792;
     StringTable * field_800;
-    Types/Classes/std/std::basic_string<wchar_t> * field_808;
+    Types/Classes/std/basic_string<wchar_t> * field_808;
     undefined8 field_816;
     ulonglong field_824;
     int field_832;
