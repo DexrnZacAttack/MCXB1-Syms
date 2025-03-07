@@ -1,6 +1,6 @@
 
 struct C4JThreadImpl {
-    undefined * * vftable;
+    C4JThread inherit;
     undefined8 field_8;
     undefined8 field_16;
     int field_24;
@@ -70,15 +70,8 @@ struct C4JThreadImpl {
     undefined field_98;
     undefined field_99;
     undefined4 field_100;
-    undefined field_104;
-    undefined field_105;
-    undefined field_106;
-    undefined field_107;
-    undefined field_108;
-    undefined field_109;
-    undefined field_110;
-    undefined field_111;
-    undefined field_112;
+    ulonglong startTime; // Created by retype action
+    bool deleteOnExit; // Created by retype action
     undefined field_113;
     undefined field_114;
     undefined field_115;
@@ -92,5 +85,5 @@ struct C4JThreadImpl {
     undefined field_133;
     undefined field_134;
     undefined field_135;
-    winnt.h/HANDLE field_136;
+    winnt.h/HANDLE thread;
 } // PlaceHolder Class Structure

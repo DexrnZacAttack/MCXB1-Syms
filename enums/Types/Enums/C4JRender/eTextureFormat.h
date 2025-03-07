@@ -1,3 +1,3 @@
-enum C4JRender::eTextureFormat : uint32_t {
+enum eTextureFormat : uint32_t {
     New_Name = 0;
 }
