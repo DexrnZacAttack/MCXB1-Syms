@@ -1,1 +1,0 @@
-typedef void * HANDLE; // pointer to void

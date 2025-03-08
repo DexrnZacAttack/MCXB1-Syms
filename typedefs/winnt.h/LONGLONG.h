@@ -1,1 +1,0 @@
-typedef longlong LONGLONG; // Signed Long Long Integer (compiler-specific size)

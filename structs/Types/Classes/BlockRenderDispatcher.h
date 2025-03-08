@@ -1,4 +1,0 @@
-
-struct BlockRenderDispatcher {
-    BlockRenderer * blockRenderer;
-}

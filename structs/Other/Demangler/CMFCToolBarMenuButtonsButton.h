@@ -1,0 +1,3 @@
+
+struct CMFCToolBarMenuButtonsButton {
+} // PlaceHolder Structure

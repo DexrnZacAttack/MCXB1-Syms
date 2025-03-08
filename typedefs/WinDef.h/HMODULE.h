@@ -1,1 +1,0 @@
-typedef WinDef.h/HINSTANCE__ * HMODULE; // pointer to HINSTANCE__

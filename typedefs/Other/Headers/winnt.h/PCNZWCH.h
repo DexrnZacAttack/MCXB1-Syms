@@ -1,0 +1,1 @@
+typedef Other/Headers/winnt.h/WCHAR * PCNZWCH; // pointer to WCHAR

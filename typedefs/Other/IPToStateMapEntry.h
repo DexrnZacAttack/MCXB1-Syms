@@ -1,0 +1,1 @@
+typedef Other/_s_IPToStateMapEntry IPToStateMapEntry;

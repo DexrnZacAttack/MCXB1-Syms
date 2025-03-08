@@ -1,3 +1,0 @@
-
-struct Delegate {
-} // PlaceHolder Structure

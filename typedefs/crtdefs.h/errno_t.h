@@ -1,1 +1,0 @@
-typedef int errno_t; // Signed Integer (compiler-specific size)

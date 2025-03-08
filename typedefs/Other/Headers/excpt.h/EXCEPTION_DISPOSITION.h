@@ -1,0 +1,1 @@
+typedef Other/Headers/excpt.h/_EXCEPTION_DISPOSITION EXCEPTION_DISPOSITION;

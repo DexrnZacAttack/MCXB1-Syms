@@ -1,0 +1,1 @@
+typedef Other/Headers/winnt.h/CHAR * LPCSTR; // pointer to CHAR

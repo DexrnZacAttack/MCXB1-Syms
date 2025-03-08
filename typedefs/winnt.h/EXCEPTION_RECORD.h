@@ -1,1 +1,0 @@
-typedef excpt.h/_EXCEPTION_RECORD EXCEPTION_RECORD;

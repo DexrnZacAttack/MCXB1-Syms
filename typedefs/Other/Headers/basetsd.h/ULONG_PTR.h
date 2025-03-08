@@ -1,0 +1,1 @@
+typedef ulonglong ULONG_PTR; // Unsigned Long Long Integer (compiler-specific size)

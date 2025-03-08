@@ -1,1 +1,0 @@
-typedef WinDef.h/BYTE * LPBYTE; // pointer to BYTE

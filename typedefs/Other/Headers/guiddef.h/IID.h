@@ -1,0 +1,1 @@
+typedef Other/Headers/guiddef.h/_GUID IID;

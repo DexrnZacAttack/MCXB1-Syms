@@ -1,1 +1,0 @@
-typedef WinDef.h/_FILETIME * LPFILETIME; // pointer to _FILETIME

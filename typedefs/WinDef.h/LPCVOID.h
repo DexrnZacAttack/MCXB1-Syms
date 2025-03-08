@@ -1,1 +1,0 @@
-typedef void * LPCVOID; // pointer to void

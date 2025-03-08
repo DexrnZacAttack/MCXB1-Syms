@@ -1,1 +1,0 @@
-typedef ehdata.h/_s_ThrowInfo ThrowInfo;

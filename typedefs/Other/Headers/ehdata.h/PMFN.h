@@ -1,0 +1,1 @@
+typedef int PMFN; // Signed Integer (compiler-specific size)

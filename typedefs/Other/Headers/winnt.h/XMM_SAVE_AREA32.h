@@ -1,0 +1,1 @@
+typedef Other/Headers/winnt.h/_XSAVE_FORMAT XMM_SAVE_AREA32;

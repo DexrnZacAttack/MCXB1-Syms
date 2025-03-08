@@ -1,0 +1,1 @@
+typedef Other/Headers/excpt.h/_CONTEXT * PCONTEXT; // pointer to _CONTEXT

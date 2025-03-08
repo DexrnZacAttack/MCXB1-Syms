@@ -1,1 +1,0 @@
-typedef void * LPVOID; // pointer to void

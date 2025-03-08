@@ -1,1 +1,0 @@
-typedef winnt.h/_XSAVE_FORMAT XSAVE_FORMAT;

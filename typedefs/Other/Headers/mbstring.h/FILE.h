@@ -1,0 +1,1 @@
+typedef Other/Headers/mbstring.h/_iobuf FILE;

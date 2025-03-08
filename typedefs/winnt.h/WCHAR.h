@@ -1,1 +1,0 @@
-typedef wchar_t WCHAR; // Wide-Character (compiler-specific size)

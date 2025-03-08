@@ -1,3 +1,0 @@
-
-struct FullName {
-} // PlaceHolder Structure

@@ -1,1 +1,0 @@
-typedef uchar uint8_t; // Unsigned Character (ASCII)

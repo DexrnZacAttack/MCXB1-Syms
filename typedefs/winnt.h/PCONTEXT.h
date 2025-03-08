@@ -1,1 +1,0 @@
-typedef excpt.h/_CONTEXT * PCONTEXT; // pointer to _CONTEXT

@@ -1,1 +1,0 @@
-typedef winnt.h/_LIST_ENTRY LIST_ENTRY;

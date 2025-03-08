@@ -1,1 +1,0 @@
-typedef winnt.h/_RTL_CRITICAL_SECTION * PCRITICAL_SECTION; // pointer to _RTL_CRITICAL_SECTION

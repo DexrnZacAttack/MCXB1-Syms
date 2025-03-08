@@ -1,4 +1,0 @@
-
-struct SynchedEntityData {
-    Entity entity;
-}

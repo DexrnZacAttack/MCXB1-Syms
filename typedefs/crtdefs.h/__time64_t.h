@@ -1,1 +1,0 @@
-typedef longlong __time64_t; // Signed Long Long Integer (compiler-specific size)

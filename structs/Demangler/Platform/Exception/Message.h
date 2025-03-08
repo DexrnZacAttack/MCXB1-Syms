@@ -1,3 +1,0 @@
-
-struct Message {
-} // PlaceHolder Structure

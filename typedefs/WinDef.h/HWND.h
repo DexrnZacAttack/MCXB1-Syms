@@ -1,1 +1,0 @@
-typedef WinDef.h/HWND__ * HWND; // pointer to HWND__

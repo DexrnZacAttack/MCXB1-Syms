@@ -1,1 +1,0 @@
-typedef winnt.h/CHAR * LPCSTR; // pointer to CHAR

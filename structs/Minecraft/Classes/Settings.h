@@ -1,0 +1,31 @@
+
+struct Settings {
+    undefined field_0;
+    undefined field_1;
+    undefined field_2;
+    undefined field_3;
+    undefined field_4;
+    undefined field_5;
+    undefined field_6;
+    undefined field_7;
+    longlong * field_8;
+    longlong field_16;
+    longlong field_24;
+    undefined field_32;
+    undefined field_33;
+    undefined field_34;
+    undefined field_35;
+    undefined field_36;
+    undefined field_37;
+    undefined field_38;
+    undefined field_39;
+    undefined field_40;
+    undefined field_41;
+    undefined field_42;
+    undefined field_43;
+    undefined field_44;
+    undefined field_45;
+    undefined field_46;
+    undefined field_47;
+    ulonglong field_48;
+} // PlaceHolder Class Structure

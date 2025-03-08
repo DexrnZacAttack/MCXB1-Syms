@@ -1,1 +1,0 @@
-typedef mbstring.h/_iobuf FILE;

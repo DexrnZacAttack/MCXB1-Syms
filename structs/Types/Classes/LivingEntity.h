@@ -1,4 +1,0 @@
-
-struct LivingEntity {
-    Entity inherit;
-}

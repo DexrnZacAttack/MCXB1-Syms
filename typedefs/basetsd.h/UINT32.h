@@ -1,1 +1,0 @@
-typedef uint UINT32; // Unsigned Integer (compiler-specific size)

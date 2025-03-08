@@ -1,0 +1,1 @@
+typedef ulong DWORD; // Unsigned Long Integer (compiler-specific size)

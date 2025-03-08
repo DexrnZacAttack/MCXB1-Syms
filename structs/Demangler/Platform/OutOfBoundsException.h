@@ -1,3 +1,0 @@
-
-struct OutOfBoundsException {
-} // PlaceHolder Structure

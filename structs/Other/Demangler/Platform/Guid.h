@@ -1,0 +1,3 @@
+
+struct Guid {
+} // PlaceHolder Structure

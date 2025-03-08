@@ -1,1 +1,0 @@
-typedef ulonglong DWORD_PTR; // Unsigned Long Long Integer (compiler-specific size)

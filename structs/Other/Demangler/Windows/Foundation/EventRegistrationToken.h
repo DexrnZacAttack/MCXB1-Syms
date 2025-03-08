@@ -1,0 +1,3 @@
+
+struct EventRegistrationToken {
+} // PlaceHolder Structure

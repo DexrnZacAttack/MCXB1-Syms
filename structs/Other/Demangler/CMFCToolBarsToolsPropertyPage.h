@@ -1,0 +1,3 @@
+
+struct CMFCToolBarsToolsPropertyPage {
+} // PlaceHolder Structure

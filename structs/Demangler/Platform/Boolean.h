@@ -1,3 +1,0 @@
-
-struct Boolean {
-} // PlaceHolder Structure

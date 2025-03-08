@@ -1,1 +1,0 @@
-typedef unknwn.h/IUnknown * LPUNKNOWN; // pointer to IUnknown

@@ -1,1 +1,0 @@
-typedef guiddef.h/_GUID IID;

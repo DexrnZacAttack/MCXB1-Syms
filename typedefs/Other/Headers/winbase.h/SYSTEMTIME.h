@@ -1,0 +1,1 @@
+typedef Other/Headers/winbase.h/_SYSTEMTIME SYSTEMTIME;

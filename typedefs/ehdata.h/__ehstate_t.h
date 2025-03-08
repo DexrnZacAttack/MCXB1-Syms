@@ -1,1 +1,0 @@
-typedef int __ehstate_t; // Signed Integer (compiler-specific size)

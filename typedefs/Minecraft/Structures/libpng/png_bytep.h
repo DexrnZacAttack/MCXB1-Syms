@@ -1,0 +1,1 @@
+typedef Minecraft/Structures/libpng/png_byte * png_bytep; // pointer to png_byte

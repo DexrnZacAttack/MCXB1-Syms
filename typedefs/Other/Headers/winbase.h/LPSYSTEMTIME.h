@@ -1,0 +1,1 @@
+typedef Other/Headers/winbase.h/_SYSTEMTIME * LPSYSTEMTIME; // pointer to _SYSTEMTIME

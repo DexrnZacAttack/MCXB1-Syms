@@ -1,1 +1,0 @@
-typedef ushort WORD; // Unsigned Short Integer (compiler-specific size)

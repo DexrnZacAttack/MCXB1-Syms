@@ -1,1 +1,0 @@
-typedef ulong GEOCLASS; // Unsigned Long Integer (compiler-specific size)

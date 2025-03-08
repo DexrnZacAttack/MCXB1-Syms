@@ -1,1 +1,0 @@
-typedef long GEOID; // Signed Long Integer (compiler-specific size)

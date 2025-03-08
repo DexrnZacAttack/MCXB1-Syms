@@ -1,1 +1,0 @@
-typedef _s_HandlerType HandlerType;

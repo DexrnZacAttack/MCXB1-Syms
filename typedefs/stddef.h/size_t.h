@@ -1,1 +1,0 @@
-typedef ulong size_t; // Unsigned Long Integer (compiler-specific size)

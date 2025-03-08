@@ -1,1 +1,0 @@
-typedef winnt.h/_RTL_SRWLOCK RTL_SRWLOCK;
