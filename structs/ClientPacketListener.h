@@ -50,17 +50,7 @@ struct ClientPacketListener {
     undefined field_54;
     undefined field_55;
     Connection * connection;
-    undefined2 * field_64;
-    undefined field_72;
-    undefined field_73;
-    undefined field_74;
-    undefined field_75;
-    undefined field_76;
-    undefined field_77;
-    undefined field_78;
-    undefined field_79;
-    undefined8 field_80;
-    ulonglong field_88;
+    Types/Classes/std/basic_string<wchar_t> field_64;
     char field_96;
     undefined field_97;
     undefined field_98;
@@ -69,7 +59,7 @@ struct ClientPacketListener {
     undefined field_101;
     undefined field_102;
     undefined field_103;
-    Types/Classes/Minecraft * field_104;
+    Types/Classes/Minecraft * minecraft;
     undefined8 field_112;
     undefined2 field_120;
     undefined field_122;

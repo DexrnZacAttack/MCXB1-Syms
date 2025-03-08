@@ -2,11 +2,11 @@
 struct Connection {
     undefined8 field_0;
     ulonglong field_8;
-    undefined8 * field_16;
-    undefined8 * field_24;
-    undefined8 * field_32;
-    undefined8 * field_40;
-    undefined8 field_48;
+    Types/Classes/DataInputStream * dataInputStream;
+    BufferedOutputStream * bufferedOutputStream;
+    Types/Classes/DataOutputStream * dataOutputStream;
+    ByteArrayOutputStream * byteArrayOutputStream;
+    OutputStream * outputStream;
     undefined1 field_56;
     undefined field_57;
     undefined field_58;
@@ -15,14 +15,7 @@ struct Connection {
     undefined field_61;
     undefined field_62;
     undefined field_63;
-    undefined field_64;
-    undefined field_65;
-    undefined field_66;
-    undefined field_67;
-    undefined field_68;
-    undefined field_69;
-    undefined field_70;
-    undefined field_71;
+    winbase.h/LPCRITICAL_SECTION field_64;
     undefined field_72;
     undefined field_73;
     undefined field_74;
@@ -60,14 +53,7 @@ struct Connection {
     undefined8 field_120;
     undefined8 field_128;
     undefined8 field_136;
-    undefined field_144;
-    undefined field_145;
-    undefined field_146;
-    undefined field_147;
-    undefined field_148;
-    undefined field_149;
-    undefined field_150;
-    undefined field_151;
+    winbase.h/LPCRITICAL_SECTION field_144;
     undefined field_152;
     undefined field_153;
     undefined field_154;
@@ -118,10 +104,10 @@ struct Connection {
     undefined field_277;
     undefined field_278;
     undefined field_279;
-    longlong * field_280;
-    longlong * field_288;
-    undefined8 * field_296;
-    undefined8 * field_304;
+    Types/Classes/C4JThreadImpl * readThread;
+    Types/Classes/C4JThreadImpl * writeThread;
+    C4JEventImpl * readEvent; // name guessed
+    C4JEventImpl * writeEvent; // name guessed
     undefined8 field_312;
     undefined1 field_320;
     undefined field_321;
@@ -147,14 +133,7 @@ struct Connection {
     undefined field_357;
     undefined field_358;
     undefined field_359;
-    undefined field_360;
-    undefined field_361;
-    undefined field_362;
-    undefined field_363;
-    undefined field_364;
-    undefined field_365;
-    undefined field_366;
-    undefined field_367;
+    winbase.h/LPCRITICAL_SECTION field_360;
     undefined field_368;
     undefined field_369;
     undefined field_370;
@@ -187,14 +166,7 @@ struct Connection {
     undefined field_397;
     undefined field_398;
     undefined field_399;
-    undefined field_400;
-    undefined field_401;
-    undefined field_402;
-    undefined field_403;
-    undefined field_404;
-    undefined field_405;
-    undefined field_406;
-    undefined field_407;
+    winbase.h/LPCRITICAL_SECTION field_400;
     undefined field_408;
     undefined field_409;
     undefined field_410;
