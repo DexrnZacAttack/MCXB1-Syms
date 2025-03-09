@@ -1,0 +1,3 @@
+struct PacketListener {
+    void * * vftable;
+}

@@ -1,1 +1,0 @@
-typedef Other/Headers/winbase.h/_STARTUPINFOW * LPSTARTUPINFOW; // pointer to _STARTUPINFOW

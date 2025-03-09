@@ -1,0 +1,2 @@
+#include "Other/Headers/winbase.h/_SECURITY_ATTRIBUTES.h"
+typedef _SECURITY_ATTRIBUTES * LPSECURITY_ATTRIBUTES; // pointer to _SECURITY_ATTRIBUTES

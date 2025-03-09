@@ -1,0 +1,2 @@
+struct ChangedStateException {
+} // PlaceHolder Structure

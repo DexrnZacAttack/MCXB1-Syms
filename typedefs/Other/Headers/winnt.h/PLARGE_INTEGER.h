@@ -1,1 +1,0 @@
-typedef Other/Headers/winnt.h/LARGE_INTEGER * PLARGE_INTEGER; // pointer to LARGE_INTEGER

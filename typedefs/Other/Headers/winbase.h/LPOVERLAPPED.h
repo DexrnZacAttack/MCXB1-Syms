@@ -1,1 +1,0 @@
-typedef Other/Headers/winbase.h/_OVERLAPPED * LPOVERLAPPED; // pointer to _OVERLAPPED

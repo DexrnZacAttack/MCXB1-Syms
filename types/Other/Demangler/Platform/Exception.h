@@ -1,0 +1,2 @@
+struct Exception {
+} // PlaceHolder Structure

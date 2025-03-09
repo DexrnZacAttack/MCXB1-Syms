@@ -1,1 +1,0 @@
-typedef Other/Headers/ehdata.h/_s_ThrowInfo ThrowInfo;

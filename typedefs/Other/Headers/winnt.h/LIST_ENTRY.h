@@ -1,1 +1,0 @@
-typedef Other/Headers/winnt.h/_LIST_ENTRY LIST_ENTRY;

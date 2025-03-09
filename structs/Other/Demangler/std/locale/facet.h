@@ -1,3 +1,0 @@
-
-struct facet {
-} // PlaceHolder Structure

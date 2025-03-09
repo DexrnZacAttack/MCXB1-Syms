@@ -1,3 +1,0 @@
-
-struct EDLC_ID {
-}

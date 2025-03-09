@@ -1,0 +1,2 @@
+#include "Minecraft/Structures/libpng/png_byte.h"
+typedef png_byte * png_const_bytep; // pointer to png_byte

@@ -1,0 +1,2 @@
+#include "Other/Headers/winnt.h/EXCEPTION_ROUTINE.h"
+typedef EXCEPTION_ROUTINE * PEXCEPTION_ROUTINE; // pointer to EXCEPTION_ROUTINE

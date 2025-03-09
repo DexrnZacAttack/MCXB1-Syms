@@ -1,0 +1,2 @@
+#include "Other/Headers/winnt.h/_RTL_CRITICAL_SECTION.h"
+typedef _RTL_CRITICAL_SECTION * LPCRITICAL_SECTION; // pointer to _RTL_CRITICAL_SECTION

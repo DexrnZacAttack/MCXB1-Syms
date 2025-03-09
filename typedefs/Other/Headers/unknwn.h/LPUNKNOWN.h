@@ -1,1 +1,0 @@
-typedef Other/Headers/unknwn.h/IUnknown * LPUNKNOWN; // pointer to IUnknown

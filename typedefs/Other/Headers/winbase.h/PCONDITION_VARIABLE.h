@@ -1,1 +1,0 @@
-typedef Other/Headers/winnt.h/RTL_CONDITION_VARIABLE * PCONDITION_VARIABLE; // pointer to RTL_CONDITION_VARIABLE

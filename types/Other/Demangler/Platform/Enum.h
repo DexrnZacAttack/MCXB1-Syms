@@ -1,0 +1,2 @@
+struct Enum {
+} // PlaceHolder Structure

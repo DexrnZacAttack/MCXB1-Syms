@@ -1,3 +1,0 @@
-
-struct InvalidArgumentException {
-} // PlaceHolder Structure

@@ -1,0 +1,2 @@
+struct ProgressListener {
+}

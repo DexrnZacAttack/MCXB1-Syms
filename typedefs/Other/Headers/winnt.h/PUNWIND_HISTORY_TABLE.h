@@ -1,1 +1,0 @@
-typedef Other/Headers/winnt.h/_UNWIND_HISTORY_TABLE * PUNWIND_HISTORY_TABLE; // pointer to _UNWIND_HISTORY_TABLE

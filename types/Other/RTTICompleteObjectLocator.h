@@ -1,0 +1,2 @@
+#include "Other/_s__RTTICompleteObjectLocator.h"
+typedef _s__RTTICompleteObjectLocator RTTICompleteObjectLocator;

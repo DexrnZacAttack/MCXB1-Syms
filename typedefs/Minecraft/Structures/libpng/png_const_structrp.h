@@ -1,1 +1,0 @@
-typedef Minecraft/Structures/libpng/png_struct * png_const_structrp; // pointer to png_struct

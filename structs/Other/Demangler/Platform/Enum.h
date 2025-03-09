@@ -1,3 +1,0 @@
-
-struct Enum {
-} // PlaceHolder Structure

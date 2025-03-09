@@ -1,3 +1,0 @@
-
-struct Type {
-} // PlaceHolder Structure

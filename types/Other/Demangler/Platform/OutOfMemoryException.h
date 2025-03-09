@@ -1,0 +1,2 @@
+struct OutOfMemoryException {
+} // PlaceHolder Structure

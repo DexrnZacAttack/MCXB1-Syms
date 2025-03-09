@@ -1,4 +1,0 @@
-
-struct InputStream {
-    void * stream;
-}

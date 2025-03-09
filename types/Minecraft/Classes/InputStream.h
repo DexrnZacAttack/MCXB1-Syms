@@ -1,0 +1,3 @@
+struct InputStream {
+    void * stream;
+}

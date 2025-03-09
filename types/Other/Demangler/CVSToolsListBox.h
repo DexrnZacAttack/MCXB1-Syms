@@ -1,0 +1,2 @@
+struct CVSToolsListBox {
+} // PlaceHolder Structure

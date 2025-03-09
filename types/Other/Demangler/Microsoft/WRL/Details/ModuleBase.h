@@ -1,0 +1,2 @@
+struct ModuleBase {
+} // PlaceHolder Structure

@@ -1,0 +1,2 @@
+struct String {
+} // PlaceHolder Structure

@@ -1,3 +1,0 @@
-
-struct FailureException {
-} // PlaceHolder Structure

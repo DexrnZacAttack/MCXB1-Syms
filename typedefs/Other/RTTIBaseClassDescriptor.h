@@ -1,1 +1,0 @@
-typedef Other/_s__RTTIBaseClassDescriptor RTTIBaseClassDescriptor;

@@ -1,3 +1,0 @@
-
-struct DisconnectedException {
-} // PlaceHolder Structure

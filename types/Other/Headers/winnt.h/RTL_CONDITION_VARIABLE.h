@@ -1,0 +1,2 @@
+#include "Other/Headers/winnt.h/_RTL_CONDITION_VARIABLE.h"
+typedef _RTL_CONDITION_VARIABLE RTL_CONDITION_VARIABLE;

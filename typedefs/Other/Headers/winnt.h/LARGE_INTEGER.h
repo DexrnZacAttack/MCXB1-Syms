@@ -1,1 +1,0 @@
-typedef Other/Headers/winnt.h/_LARGE_INTEGER LARGE_INTEGER;

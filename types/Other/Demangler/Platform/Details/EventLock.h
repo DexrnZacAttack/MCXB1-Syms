@@ -1,0 +1,2 @@
+struct EventLock {
+} // PlaceHolder Structure

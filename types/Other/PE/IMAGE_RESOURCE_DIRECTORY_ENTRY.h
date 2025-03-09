@@ -1,0 +1,6 @@
+#include "Other/PE/IMAGE_RESOURCE_DIRECTORY_ENTRY_NameUnion.h"
+#include "Other/IMAGE_RESOURCE_DIRECTORY_ENTRY_DirectoryUnion.h"
+union IMAGE_RESOURCE_DIRECTORY_ENTRY {
+    IMAGE_RESOURCE_DIRECTORY_ENTRY_NameUnion NameUnion;
+    IMAGE_RESOURCE_DIRECTORY_ENTRY_DirectoryUnion DirectoryUnion;
+}

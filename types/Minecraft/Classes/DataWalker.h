@@ -1,0 +1,3 @@
+struct DataWalker {
+    void * * vftable;
+}

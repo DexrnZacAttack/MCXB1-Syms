@@ -1,1 +1,0 @@
-typedef Other/Headers/winnt.h/_XSAVE_FORMAT XSAVE_FORMAT;

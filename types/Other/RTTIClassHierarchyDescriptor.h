@@ -1,0 +1,2 @@
+#include "Other/_s__RTTIClassHierarchyDescriptor.h"
+typedef _s__RTTIClassHierarchyDescriptor RTTIClassHierarchyDescriptor;

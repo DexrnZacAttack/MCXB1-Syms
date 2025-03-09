@@ -1,0 +1,2 @@
+#include "Other/_s__RTTIBaseClassDescriptor.h"
+typedef _s__RTTIBaseClassDescriptor RTTIBaseClassDescriptor;
