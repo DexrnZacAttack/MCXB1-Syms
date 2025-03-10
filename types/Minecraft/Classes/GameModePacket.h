@@ -1,5 +1,4 @@
-struct GameModePacket {
-    undefined * * vftable;
+struct GameModePacket : undefined * * {
     undefined field_8;
     undefined field_9;
     undefined field_10;
@@ -16,14 +15,7 @@ struct GameModePacket {
     undefined field_21;
     undefined field_22;
     undefined field_23;
-    undefined field_24;
-    undefined field_25;
-    undefined field_26;
-    undefined field_27;
-    undefined field_28;
-    undefined field_29;
-    undefined field_30;
-    undefined field_31;
+    void * field_24;
     undefined field_32;
     undefined field_33;
     undefined field_34;
@@ -40,14 +32,7 @@ struct GameModePacket {
     undefined field_45;
     undefined field_46;
     undefined field_47;
-    undefined field_48;
-    undefined field_49;
-    undefined field_50;
-    undefined field_51;
-    undefined field_52;
-    undefined field_53;
-    undefined field_54;
-    undefined field_55;
+    void * field_48;
     undefined field_56;
     undefined field_57;
     undefined field_58;
@@ -88,22 +73,8 @@ struct GameModePacket {
     undefined field_93;
     undefined field_94;
     undefined field_95;
-    undefined field_96;
-    undefined field_97;
-    undefined field_98;
-    undefined field_99;
-    undefined field_100;
-    undefined field_101;
-    undefined field_102;
-    undefined field_103;
-    undefined field_104;
-    undefined field_105;
-    undefined field_106;
-    undefined field_107;
-    undefined field_108;
-    undefined field_109;
-    undefined field_110;
-    undefined field_111;
+    void * field_96;
+    ulonglong field_104;
     undefined field_112;
     undefined field_113;
     undefined field_114;
@@ -112,14 +83,7 @@ struct GameModePacket {
     undefined field_117;
     undefined field_118;
     undefined field_119;
-    undefined field_120;
-    undefined field_121;
-    undefined field_122;
-    undefined field_123;
-    undefined field_124;
-    undefined field_125;
-    undefined field_126;
-    undefined field_127;
-    undefined8 field_128;
-    undefined8 field_136;
+    void * field_120;
+    void * field_128;
+    ulonglong field_136;
 } // PlaceHolder Class Structure
