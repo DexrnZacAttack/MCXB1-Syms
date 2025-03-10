@@ -1,0 +1,1 @@
+typedef ulong LightLayer::variety; // Unsigned Long Integer (compiler-specific size)

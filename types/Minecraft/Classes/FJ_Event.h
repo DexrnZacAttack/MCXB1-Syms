@@ -1,2 +1,0 @@
-struct FJ_Event {
-}

@@ -1,1 +1,0 @@
-typedef ulong variety; // Unsigned Long Integer (compiler-specific size)

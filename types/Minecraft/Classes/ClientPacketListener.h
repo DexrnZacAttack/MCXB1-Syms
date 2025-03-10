@@ -1,6 +1,6 @@
 #include "Minecraft/Classes/ClientGamePacketListener.h"
 #include "Minecraft/Classes/Connection.h"
-#include "Minecraft/Classes/std/basic_string%3Cwchar_t%3E.h"
+#include "Minecraft/Classes/std/std%3A%3Abasic_string%3Cwchar_t%3E.h"
 #include "Minecraft/Classes/Minecraft.h"
 #include "Minecraft/Classes/Random.h"
 #include "Minecraft/Classes/SavedDataMemoryStorage.h"
@@ -54,7 +54,7 @@ struct ClientPacketListener : ClientGamePacketListener {
     undefined field_54;
     undefined field_55;
     Connection * connection;
-    basic_string<wchar_t> field_64;
+    std::basic_string<wchar_t> field_64;
     char field_96;
     undefined field_97;
     undefined field_98;

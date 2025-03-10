@@ -1,4 +1,4 @@
-#include "Minecraft/Classes/std/basic_string%3Cwchar_t%3E.h"
+#include "Minecraft/Classes/std/std%3A%3Abasic_string%3Cwchar_t%3E.h"
 struct StoneBlock {
     undefined * * * field_0;
     undefined field_8;
@@ -9,7 +9,7 @@ struct StoneBlock {
     undefined field_13;
     undefined field_14;
     undefined field_15;
-    basic_string<wchar_t> * field_16;
+    std::basic_string<wchar_t> * field_16;
     undefined field_24;
     undefined field_25;
     undefined field_26;

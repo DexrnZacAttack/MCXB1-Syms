@@ -44930,4 +44930,3 @@ Library: Visual Studio 2015 Release;3;
 140f98f30;class Windows::Foundation::AsyncOperationCompletedHandler<class Windows::Xbox::System::GetTokenAndSignatureResult ^ __ptr64> RTTI Type Descriptor;3;
 140f98fb8;class HttpCallback RTTI Type Descriptor;3;
 141084060;Rsrc_Manifest_1_409 Size of resource: 0x91 bytes;3;
-e of resource: 0x91 bytes;3;

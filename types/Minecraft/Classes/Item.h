@@ -1,4 +1,4 @@
-#include "Minecraft/Classes/std/basic_string%3Cwchar_t%3E.h"
+#include "Minecraft/Classes/std/std%3A%3Abasic_string%3Cwchar_t%3E.h"
 struct Item {
     void * * vftable;
     undefined8 field_8;
@@ -16,10 +16,10 @@ struct Item {
     undefined field_54;
     undefined field_55;
     undefined8 field_56;
-    basic_string<wchar_t> field_64;
+    std::basic_string<wchar_t> field_64;
     int descriptionId;
     uint useDescriptionId; // Created by retype action
-    basic_string<wchar_t> field_104;
+    std::basic_string<wchar_t> field_104;
     undefined field_136;
     undefined field_137;
     undefined field_138;

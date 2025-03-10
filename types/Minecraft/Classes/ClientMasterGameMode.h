@@ -1,6 +1,6 @@
 #include "Minecraft/Classes/CommonMasterGameMode.h"
 #include "Minecraft/Classes/StringTable.h"
-#include "Minecraft/Classes/std/basic_string%3Cwchar_t%3E.h"
+#include "Minecraft/Classes/std/std%3A%3Abasic_string%3Cwchar_t%3E.h"
 struct ClientMasterGameMode : CommonMasterGameMode {
     undefined * * field_384;
     undefined8 field_392;
@@ -14,7 +14,7 @@ struct ClientMasterGameMode : CommonMasterGameMode {
     undefined field_407;
     StringTable * field_408;
     StringTable * field_416;
-    basic_string<wchar_t> * field_424;
+    std::basic_string<wchar_t> * field_424;
     StringTable field_432;
     undefined4 field_608;
     undefined field_612;
@@ -207,7 +207,7 @@ struct ClientMasterGameMode : CommonMasterGameMode {
     undefined field_837;
     undefined field_838;
     undefined field_839;
-    basic_string<wchar_t> * field_840;
+    std::basic_string<wchar_t> * field_840;
     undefined2 field_848;
     undefined field_850;
     undefined field_851;

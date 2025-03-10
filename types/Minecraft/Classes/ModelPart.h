@@ -1,4 +1,4 @@
-#include "Minecraft/Classes/std/basic_string%3Cwchar_t%3E.h"
+#include "Minecraft/Classes/std/std%3A%3Abasic_string%3Cwchar_t%3E.h"
 #include "Minecraft/Classes/Model.h"
 struct ModelPart {
     void * * vftable;
@@ -73,7 +73,7 @@ struct ModelPart {
     undefined field_141;
     undefined field_142;
     undefined field_143;
-    basic_string<wchar_t> id;
+    std::basic_string<wchar_t> id;
     undefined field_176;
     undefined field_177;
     undefined field_178;

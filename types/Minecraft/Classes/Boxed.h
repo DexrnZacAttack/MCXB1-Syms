@@ -1,4 +1,5 @@
+#include "Minecraft/Classes/std/std%3A%3Atype_info.h"
 struct Boxed {
-    undefined * * field_0;
-    undefined8 field_8;
+    undefined * * vftable;
+    std::type_info * type;
 } // PlaceHolder Class Structure

@@ -1,0 +1,1 @@
+typedef ulonglong POINTER_64_INT; // Unsigned Long Long Integer (compiler-specific size)

@@ -1,4 +1,4 @@
-#include "Minecraft/Classes/std/basic_string%3Cwchar_t%3E.h"
+#include "Minecraft/Classes/std/std%3A%3Abasic_string%3Cwchar_t%3E.h"
 #include "Minecraft/Classes/Item%3A%3ATier.h"
 struct SwordItem {
     undefined * * vftable;
@@ -23,7 +23,7 @@ struct SwordItem {
     undefined field_54;
     undefined field_55;
     undefined8 field_56;
-    basic_string<wchar_t> field_64;
+    std::basic_string<wchar_t> field_64;
     undefined field_96;
     undefined field_97;
     undefined field_98;
@@ -32,7 +32,7 @@ struct SwordItem {
     undefined field_101;
     undefined field_102;
     undefined field_103;
-    basic_string<wchar_t> * field_104;
+    std::basic_string<wchar_t> * field_104;
     undefined field_112;
     undefined field_113;
     undefined field_114;

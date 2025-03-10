@@ -1,7 +1,6 @@
 // 'NoneType' object has no attribute 'getPathName'
-// 'NoneType' object has no attribute 'getPathName'
+#include "Minecraft/Classes/std/std%3A%3Atype_info_data.h"
 struct std::type_info {
     pointer64 * vftable;
-    char * name;
-    pointer64 base_info;
+    std::type_info_data data;
 }
