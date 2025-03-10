@@ -1,3 +1,3 @@
 #include "Minecraft/Classes/SavedDataStorage.h"
-struct SavedDataMemoryStorage : SavedDataStorage {
+struct SavedDataMemoryStorage : public SavedDataStorage {
 } // PlaceHolder Class Structure

@@ -1,5 +1,5 @@
 #include "Minecraft/Classes/KeyedDataWalker.h"
-struct ItemDataWalker : KeyedDataWalker {
+struct ItemDataWalker : public KeyedDataWalker {
     undefined field_97;
     undefined field_98;
     undefined field_99;

@@ -1,6 +1,6 @@
 #include "Minecraft/Classes/InputStream.h"
 #include "Minecraft/Classes/DataInput.h"
-struct DataInputStream : InputStream {
+struct DataInputStream : public InputStream {
     DataInput inherit2;
     undefined field_16;
     undefined field_17;

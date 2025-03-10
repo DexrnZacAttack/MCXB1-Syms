@@ -1,3 +1,3 @@
 #include "Minecraft/Classes/Tag.h"
-struct EndTag : Tag {
+struct EndTag : public Tag {
 } // PlaceHolder Class Structure

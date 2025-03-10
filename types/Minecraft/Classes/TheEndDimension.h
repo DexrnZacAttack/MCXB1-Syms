@@ -1,5 +1,5 @@
 #include "Minecraft/Classes/Dimension.h"
-struct TheEndDimension : Dimension {
+struct TheEndDimension : public Dimension {
     undefined * * field_80;
     void * field_88;
     bool field_96;

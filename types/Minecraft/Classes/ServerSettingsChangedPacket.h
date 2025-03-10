@@ -1,5 +1,5 @@
 #include "Minecraft/Classes/Packets/Packet.h"
-struct ServerSettingsChangedPacket : Packet {
+struct ServerSettingsChangedPacket : public Packet {
     void * field_24;
     ulonglong field_32;
     bool field_40;

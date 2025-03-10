@@ -1,4 +1,4 @@
 #include "Minecraft/Classes/Packets/Packet.h"
-struct ClientboundKeepAlivePacket : Packet {
+struct ClientboundKeepAlivePacket : public Packet {
     int id;
 } // PlaceHolder Class Structure

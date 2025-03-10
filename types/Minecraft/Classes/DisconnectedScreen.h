@@ -1,3 +1,3 @@
 #include "Minecraft/Classes/Screen.h"
-struct DisconnectedScreen : Screen {
+struct DisconnectedScreen : public Screen {
 } // PlaceHolder Class Structure

@@ -1,5 +1,5 @@
 #include "Minecraft/Classes/Tag.h"
-struct ShortTag : Tag {
+struct ShortTag : public Tag {
     undefined field_8;
     undefined field_9;
     undefined field_10;

@@ -1,5 +1,5 @@
 #include "Minecraft/Classes/OutputStream.h"
-struct ByteArrayOutputStream : OutputStream {
+struct ByteArrayOutputStream : public OutputStream {
     void * buf;
     ulonglong count;
     undefined4 field_24;

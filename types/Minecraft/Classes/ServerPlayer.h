@@ -1,3 +1,3 @@
 #include "Minecraft/Classes/Player.h"
-struct ServerPlayer : Player {
+struct ServerPlayer : public Player {
 }

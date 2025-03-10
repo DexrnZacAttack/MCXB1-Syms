@@ -1,4 +1,4 @@
 #include "Minecraft/Classes/Tag.h"
-struct LongTag : Tag {
+struct LongTag : public Tag {
     longlong data;
 } // PlaceHolder Class Structure

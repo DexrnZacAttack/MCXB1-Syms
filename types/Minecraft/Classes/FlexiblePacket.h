@@ -1,5 +1,5 @@
 #include "Minecraft/Classes/Packets/Packet.h"
-struct FlexiblePacket : Packet {
+struct FlexiblePacket : public Packet {
     void * field_24;
     ulonglong field_32;
     undefined8 field_40;

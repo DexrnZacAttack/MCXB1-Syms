@@ -4,7 +4,7 @@
 #include "Minecraft/Classes/Minecraft.h"
 #include "Minecraft/Classes/Random.h"
 #include "Minecraft/Classes/SavedDataMemoryStorage.h"
-struct ClientPacketListener : ClientGamePacketListener {
+struct ClientPacketListener : public ClientGamePacketListener {
     undefined1 field_8;
     undefined field_9;
     undefined field_10;

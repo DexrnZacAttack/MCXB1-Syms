@@ -1,3 +1,3 @@
 #include "Minecraft/Classes/Screen.h"
-struct ConfirmScreen : Screen {
+struct ConfirmScreen : public Screen {
 } // PlaceHolder Class Structure

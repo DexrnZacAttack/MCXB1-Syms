@@ -4,7 +4,7 @@
 #include "Minecraft/Classes/std/std%3A%3Abasic_string%3Cwchar_t%3E.h"
 #include "Minecraft/Classes/Random.h"
 #include "Minecraft/Classes/RoundInfo.h"
-struct MasterGameMode : CommonMasterGameMode {
+struct MasterGameMode : public CommonMasterGameMode {
     undefined * * field_384;
     undefined8 field_392;
     undefined8 field_400;

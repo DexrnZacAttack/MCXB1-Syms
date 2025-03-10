@@ -1,5 +1,5 @@
 #include "Minecraft/Classes/Block.h"
-struct FireBlock : Block {
+struct FireBlock : public Block {
     undefined field_176;
     undefined field_177;
     undefined field_178;

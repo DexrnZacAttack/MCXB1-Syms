@@ -1,3 +1,3 @@
 #include "Minecraft/Classes/LevelChunk.h"
-struct EmptyLevelChunk : LevelChunk {
+struct EmptyLevelChunk : public LevelChunk {
 } // PlaceHolder Class Structure

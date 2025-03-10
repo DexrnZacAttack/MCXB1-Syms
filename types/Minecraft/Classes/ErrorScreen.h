@@ -1,5 +1,5 @@
 #include "Minecraft/Classes/Screen.h"
-struct ErrorScreen : Screen {
+struct ErrorScreen : public Screen {
     undefined *64 field_88;
     undefined field_96;
     undefined field_97;

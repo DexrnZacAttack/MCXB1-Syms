@@ -1,6 +1,6 @@
 #include "Minecraft/Classes/Packets/Packet.h"
 #include "Minecraft/Classes/std/std%3A%3Abasic_string%3Cwchar_t%3E.h"
-struct ClientboundPreLoginPacket : Packet {
+struct ClientboundPreLoginPacket : public Packet {
     void * field_24;
     ulonglong field_32;
     undefined8 field_40;

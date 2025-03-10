@@ -2,7 +2,7 @@
 #include "Minecraft/Classes/MinecraftServer.h"
 #include "Minecraft/Classes/PlayerChunkMap.h"
 #include "Minecraft/Classes/NaturalMobSpawner.h"
-struct ServerLevel : Level {
+struct ServerLevel : public Level {
     MinecraftServer * field_736;
     undefined8 * field_744;
     PlayerChunkMap * chunkMap;

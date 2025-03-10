@@ -1,5 +1,5 @@
 #include "Minecraft/Classes/Tag.h"
-struct ListTag : Tag {
+struct ListTag : public Tag {
     undefined8 field_8;
     undefined8 field_16;
     undefined8 field_24;

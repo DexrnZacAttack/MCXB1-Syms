@@ -1,7 +1,7 @@
 #include "Minecraft/Classes/CommonMasterGameMode.h"
 #include "Minecraft/Classes/StringTable.h"
 #include "Minecraft/Classes/std/std%3A%3Abasic_string%3Cwchar_t%3E.h"
-struct ClientMasterGameMode : CommonMasterGameMode {
+struct ClientMasterGameMode : public CommonMasterGameMode {
     undefined * * field_384;
     undefined8 field_392;
     undefined1 field_400;

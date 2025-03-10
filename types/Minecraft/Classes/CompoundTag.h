@@ -1,5 +1,5 @@
 #include "Minecraft/Classes/Tag.h"
-struct CompoundTag : Tag {
+struct CompoundTag : public Tag {
     undefined1 allTagsMap; // Created by retype action
     undefined field_9;
     undefined field_10;

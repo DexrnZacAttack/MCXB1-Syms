@@ -1,6 +1,6 @@
 #include "Minecraft/Classes/ClientPacketListener.h"
 #include "Minecraft/Classes/Connection.h"
-struct FakeClientPacketListener : ClientPacketListener {
+struct FakeClientPacketListener : public ClientPacketListener {
     undefined1 field_184;
     undefined field_185;
     undefined field_186;

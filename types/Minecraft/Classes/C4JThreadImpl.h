@@ -1,7 +1,7 @@
 #include "Minecraft/Classes/C4JThread.h"
 #include "Other/Headers/winnt.h/LPCSTR.h"
 #include "Other/Headers/winnt.h/HANDLE.h"
-struct C4JThreadImpl : C4JThread {
+struct C4JThreadImpl : public C4JThread {
     undefined8 field_8;
     undefined8 field_16;
     int field_24;

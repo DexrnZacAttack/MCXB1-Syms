@@ -1,7 +1,7 @@
 #include "Minecraft/Classes/DataWalker.h"
 #include "Minecraft/Enums/eINSTANCEOF.h"
 #include "Minecraft/Classes/std/std%3A%3Abasic_string%3Cwchar_t%3E.h"
-struct OverwritableWalker : DataWalker {
+struct OverwritableWalker :  /* assumed */ public DataWalker {
     eINSTANCEOF field_8;
     undefined field_12;
     undefined field_13;

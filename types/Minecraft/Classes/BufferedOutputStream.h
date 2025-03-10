@@ -1,5 +1,5 @@
 #include "Minecraft/Classes/OutputStream.h"
-struct BufferedOutputStream : OutputStream {
+struct BufferedOutputStream :  /* should be filtered afaik but ig it doesn't exist here */ public OutputStream {
     void * * out;
     void * buf;
     void * * field_24;

@@ -1,3 +1,3 @@
 #include "Minecraft/Classes/MobRenderer.h"
-struct SpiderRenderer : MobRenderer {
+struct SpiderRenderer : public MobRenderer {
 } // PlaceHolder Class Structure

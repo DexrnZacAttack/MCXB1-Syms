@@ -1,5 +1,5 @@
 #include "Minecraft/Classes/ConsoleSaveFileCommon.h"
-struct ConsoleSaveFileSplit : ConsoleSaveFileCommon {
+struct ConsoleSaveFileSplit : public ConsoleSaveFileCommon {
     undefined field_136;
     undefined field_137;
     undefined field_138;

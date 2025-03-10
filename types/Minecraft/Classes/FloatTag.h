@@ -1,5 +1,5 @@
 #include "Minecraft/Classes/Tag.h"
-struct FloatTag : Tag {
+struct FloatTag : public Tag {
     float data;
     undefined field_12;
     undefined field_13;

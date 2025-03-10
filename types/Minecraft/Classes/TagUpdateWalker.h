@@ -1,5 +1,5 @@
 #include "Minecraft/Classes/DataWalker.h"
-struct TagUpdateWalker : DataWalker {
+struct TagUpdateWalker :  /* assumed as assigned to var of type DataWalker* in LevelData::addWalkers */ public DataWalker {
     undefined *64 field_8;
     undefined field_16;
     undefined field_17;

@@ -1,5 +1,5 @@
 #include "Minecraft/Classes/LargeFeature.h"
-struct CanyonFeature : LargeFeature {
+struct CanyonFeature : public LargeFeature {
     undefined field_48;
     undefined field_49;
     undefined field_50;

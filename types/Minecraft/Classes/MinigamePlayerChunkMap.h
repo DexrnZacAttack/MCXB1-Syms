@@ -1,3 +1,3 @@
 #include "Minecraft/Classes/PlayerChunkMap.h"
-struct MinigamePlayerChunkMap : PlayerChunkMap {
+struct MinigamePlayerChunkMap : public PlayerChunkMap {
 } // PlaceHolder Class Structure

@@ -1,3 +1,3 @@
 #include "Minecraft/Classes/DirectoryLevelStorage.h"
-struct McRegionLevelStorage : DirectoryLevelStorage {
+struct McRegionLevelStorage : public DirectoryLevelStorage {
 } // PlaceHolder Class Structure

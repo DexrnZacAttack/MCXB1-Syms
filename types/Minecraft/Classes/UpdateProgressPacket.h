@@ -1,5 +1,5 @@
 #include "Minecraft/Classes/Packets/Packet.h"
-struct UpdateProgressPacket : Packet {
+struct UpdateProgressPacket : public Packet {
     void * field_24;
     ulonglong field_32;
     int progress;

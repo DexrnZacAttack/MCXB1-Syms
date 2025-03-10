@@ -1,6 +1,6 @@
 #include "Minecraft/Classes/Packets/Packet.h"
 #include "Minecraft/Classes/Difficulty.h"
-struct ClientboundChangeDifficultyPacket : Packet {
+struct ClientboundChangeDifficultyPacket : public Packet {
     void * field_24;
     ulonglong field_32;
     Difficulty * difficulty;

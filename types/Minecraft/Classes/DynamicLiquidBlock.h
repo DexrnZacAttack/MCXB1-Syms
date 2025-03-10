@@ -1,3 +1,3 @@
 #include "Minecraft/Classes/LiquidBlock.h"
-struct DynamicLiquidBlock : LiquidBlock {
+struct DynamicLiquidBlock : public LiquidBlock {
 } // PlaceHolder Class Structure

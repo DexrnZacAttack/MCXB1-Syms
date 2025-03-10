@@ -1,3 +1,3 @@
 #include "Minecraft/Classes/LiquidBlock.h"
-struct StaticLiquidBlock : LiquidBlock {
+struct StaticLiquidBlock : public LiquidBlock {
 }

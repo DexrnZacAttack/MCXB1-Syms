@@ -1,5 +1,5 @@
 #include "Minecraft/Classes/Packets/Packet.h"
-struct ClientboundAddPlayerPacket : Packet {
+struct ClientboundAddPlayerPacket : public Packet {
     undefined field_24;
     undefined field_25;
     undefined field_26;

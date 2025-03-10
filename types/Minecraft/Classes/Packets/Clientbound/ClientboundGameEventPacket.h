@@ -1,5 +1,5 @@
 #include "Minecraft/Classes/Packets/Packet.h"
-struct ClientboundGameEventPacket : Packet {
+struct ClientboundGameEventPacket : public Packet {
     void * field_24;
     ulonglong field_32;
     int field_40;
