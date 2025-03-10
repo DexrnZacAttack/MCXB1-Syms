@@ -1,13 +1,15 @@
+#include "Minecraft/Classes/Socket.h"
 #include "Minecraft/Classes/DataInputStream.h"
 #include "Minecraft/Classes/BufferedOutputStream.h"
 #include "Minecraft/Classes/DataOutputStream.h"
 #include "Minecraft/Classes/ByteArrayOutputStream.h"
 #include "Minecraft/Classes/OutputStream.h"
 #include "Other/Headers/winbase.h/LPCRITICAL_SECTION.h"
+#include "Minecraft/Classes/PacketListener.h"
 #include "Minecraft/Classes/C4JThreadImpl.h"
 #include "Minecraft/Classes/C4JEventImpl.h"
 struct Connection {
-    undefined8 field_0;
+    Socket * socket;
     ulonglong field_8;
     DataInputStream * dataInputStream;
     BufferedOutputStream * bufferedOutputStream;
@@ -103,7 +105,7 @@ struct Connection {
     undefined8 field_240;
     undefined8 field_248;
     undefined8 field_256;
-    longlong * field_264;
+    PacketListener * packetListener;
     undefined2 field_272;
     undefined field_274;
     undefined field_275;

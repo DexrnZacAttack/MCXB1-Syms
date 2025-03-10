@@ -8,3 +8,7 @@ Names are ported from Minecraft: Wii U Edition Patch 35
 Files created using [TSym](https://github.com/DexrnZacAttack/TSym)
 
 Contributing guide coming soon.
+
+## Credits
+
+- Some names and structures come from [GRAnimated's LCE Decomp](https://github.com/GRAnimated/MinecraftLCE)

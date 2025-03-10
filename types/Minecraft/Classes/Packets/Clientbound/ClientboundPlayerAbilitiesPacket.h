@@ -26,5 +26,5 @@ struct ClientboundPlayerAbilitiesPacket : Packet {
     undefined field_53;
     undefined field_54;
     undefined field_55;
-    undefined4 playerId;
+    int playerId;
 } // PlaceHolder Class Structure
