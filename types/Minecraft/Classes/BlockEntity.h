@@ -2,7 +2,8 @@ struct BlockEntity {
     undefined * * field_0;
     undefined8 field_8;
     undefined8 field_16;
-    undefined2 field_24;
+    undefined field_24;
+    uchar field_25;
     undefined field_26;
     undefined field_27;
     undefined field_28;

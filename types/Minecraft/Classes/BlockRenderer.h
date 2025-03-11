@@ -21,10 +21,14 @@ struct BlockRenderer {
     undefined2 field_28;
     undefined field_30;
     undefined field_31;
-    undefined8 field_32;
-    undefined8 field_40;
-    undefined8 field_48;
-    undefined2 field_56;
+    float shape_x0;
+    float shape_x1;
+    float shape_y0;
+    float shape_y1;
+    float shape_z0;
+    float shape_z1;
+    char field_56;
+    undefined1 field_57;
     undefined field_58;
     undefined field_59;
     undefined field_60;

@@ -12451,6 +12451,7 @@ Library: Visual Studio 2012 Release;3;
  public: virtual class Platform::String ^ __ptr64 __cdecl Platform::Details::IPrintable::ToString(void) __ptr64
 
 Library: Visual Studio 2012 Release;3;
+140837e90;param_5 is shared_ptr;3;
 14084ab20;Library Function - Single Match
  protected: virtual int __cdecl std::basic_stringbuf<char,struct std::char_traits<char>,class std::allocator<char> >::underflow(void) __ptr64
 
