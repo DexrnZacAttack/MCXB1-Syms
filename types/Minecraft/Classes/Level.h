@@ -197,7 +197,7 @@ struct Level {
     float field_392;
     float field_396;
     float field_400;
-    undefined4 field_404;
+    undefined4 skyFlashTime;
     ulonglong * field_408;
     undefined1 field_416;
     undefined field_417;

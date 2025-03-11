@@ -12409,6 +12409,8 @@ Libraries: Visual Studio 2012 Release, Visual Studio 2015 Release;3;
 Libraries: Visual Studio 2012 Release, Visual Studio 2015 Release, Visual Studio 2017 Release, Visual Studio 2019 Release;3;
 14026d690;Could be incorrect, but it seems like this got inlined?;3;
 14026ded8;????;3;
+140280203;send serverbound keep alive (guessing);3;
+140280231;send clientbound keep alive (guessing);3;
 14028cba0;Library Function - Single Match
  sprintf
 
@@ -44931,4 +44933,6 @@ Library: Visual Studio 2015 Release;3;
 140f98e50;struct Platform::Details::__abi_FunctorCapture<class <lambda_70037ee14670a1a1c1df81d1f866bee0>,void,struct Windows::Foundation::IAsyncOperation<class Windows::Xbox::System::GetTokenAndSignatureResult ^ __ptr64> ^ __ptr64,enum Windows::Foundation::AsyncStatus> RTTI Type Descriptor;3;
 140f98f30;class Windows::Foundation::AsyncOperationCompletedHandler<class Windows::Xbox::System::GetTokenAndSignatureResult ^ __ptr64> RTTI Type Descriptor;3;
 140f98fb8;class HttpCallback RTTI Type Descriptor;3;
+140fcd2d8;closest thing I could find related to getAverageFps in Render;3;
+140fe7a98;maybe GlStateManager::instance?;3;
 141084060;Rsrc_Manifest_1_409 Size of resource: 0x91 bytes;3;

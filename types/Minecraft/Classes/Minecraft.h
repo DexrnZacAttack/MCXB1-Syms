@@ -19,6 +19,7 @@
 #include "Minecraft/Classes/TexturePackRepository.h"
 #include "Minecraft/Classes/File.h"
 #include "Minecraft/Classes/McRegionLevelStorageSource.h"
+#include "Minecraft/Classes/FrameTimer.h"
 #include "Minecraft/Classes/ClientMasterGameMode.h"
 struct Minecraft {
     DataFixerUpper * dfu;
@@ -39,8 +40,8 @@ struct Minecraft {
     undefined field_29;
     undefined field_30;
     undefined field_31;
-    int field_32;
-    undefined4 field_36;
+    int width;
+    undefined4 height;
     int field_40;
     undefined4 field_44;
     Timer * timer;
@@ -356,7 +357,7 @@ struct Minecraft {
     undefined field_781;
     undefined field_782;
     undefined field_783;
-    SoundEngine * field_784;
+    FrameTimer * frameTimer;
     undefined field_792;
     undefined field_793;
     undefined field_794;

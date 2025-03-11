@@ -1275,12 +1275,12 @@ struct CMinecraftApp {
     undefined8 field_1445;
     undefined4 field_1453;
     undefined2 field_1457;
-    undefined field_1459;
+    bool banListCheck; // GetBanListCheck tries to index into this... not even big enough for a pointer though.
     undefined field_1460;
     undefined field_1461;
     undefined field_1462;
     undefined field_1463;
-    undefined4 field_1464;
+    undefined4 field_1464; // related to autosave timer
     undefined4 field_1468;
     undefined field_1472;
     undefined field_1473;

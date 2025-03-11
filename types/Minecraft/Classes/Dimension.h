@@ -25,7 +25,7 @@ struct Dimension {
     undefined field_45;
     undefined field_46;
     undefined field_47;
-    void * field_48;
+    void * brightnessRamp;
     undefined field_56;
     undefined field_57;
     undefined field_58;
