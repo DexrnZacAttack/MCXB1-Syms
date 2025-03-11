@@ -1,4 +1,4 @@
-#include "Minecraft/Classes/fuiRenderNode.h"
+#include "Minecraft/Classes/FUI/RenderNode/fuiRenderNode.h"
 struct FJ_FuiNode {
     void * * vftable;
     fuiRenderNode * node;

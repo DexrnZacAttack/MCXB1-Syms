@@ -1,4 +1,4 @@
-#include "Minecraft/Classes/fuiFile.h"
+#include "Minecraft/Classes/FUI/fuiFile.h"
 #include "Minecraft/Classes/FUI/Controls/UIControl_Button[8].h"
 struct UIScene_MainMenu {
     undefined * * vftable;

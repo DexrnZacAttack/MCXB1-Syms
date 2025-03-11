@@ -1,21 +1,11 @@
-#include "FJ_Base.h"
+#include "Minecraft/Classes/FUI/FJ_Base.h"
 struct FJ_CheckBox : public FJ_Base {
-    undefined field_360;
-    undefined field_361;
+    undefined2 field_360;
     undefined field_362;
     undefined field_363;
-    undefined field_364;
-    undefined field_365;
-    undefined field_366;
-    undefined field_367;
-    undefined field_368;
-    undefined field_369;
-    undefined field_370;
-    undefined field_371;
-    undefined field_372;
-    undefined field_373;
-    undefined field_374;
-    undefined field_375;
+    int field_364;
+    int field_368;
+    int field_372;
     undefined field_376;
     undefined field_377;
     undefined field_378;

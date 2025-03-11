@@ -1,5 +1,5 @@
 #include "Minecraft/Classes/std/basic_string%3Cwchar_t%3E.h"
-#include "Minecraft/Classes/fuiFile.h"
+#include "Minecraft/Classes/FUI/fuiFile.h"
 #include "Minecraft/Enums/EMiniGameId.h"
 #include "Minecraft/Classes/FUI/Controls/UIControl.h"
 #include "Minecraft/Classes/FUI/Controls/UIControl_Button.h"
