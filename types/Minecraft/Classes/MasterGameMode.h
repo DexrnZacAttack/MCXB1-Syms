@@ -1,7 +1,7 @@
 #include "Minecraft/Classes/CommonMasterGameMode.h"
 #include "Minecraft/Classes/StringTable.h"
 #include "Minecraft/Classes/LevelGenerationOptions.h"
-#include "Minecraft/Classes/std/std%3A%3Abasic_string%3Cwchar_t%3E.h"
+#include "Minecraft/Classes/std/basic_string%3Cwchar_t%3E.h"
 #include "Minecraft/Classes/Random.h"
 #include "Minecraft/Classes/RoundInfo.h"
 struct MasterGameMode : public CommonMasterGameMode {
@@ -296,7 +296,7 @@ struct MasterGameMode : public CommonMasterGameMode {
     undefined8 field_784;
     StringTable * field_792;
     StringTable * field_800;
-    std::basic_string<wchar_t> * field_808;
+    basic_string<wchar_t> * field_808;
     undefined8 field_816;
     ulonglong field_824;
     int field_832;

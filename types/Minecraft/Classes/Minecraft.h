@@ -3,7 +3,7 @@
 #include "Minecraft/Classes/LevelRenderer.h"
 #include "Minecraft/Classes/ParticleEngine.h"
 #include "Minecraft/Classes/User.h"
-#include "Minecraft/Classes/std/std%3A%3Abasic_string%3Cwchar_t%3E.h"
+#include "Minecraft/Classes/std/basic_string%3Cwchar_t%3E.h"
 #include "Minecraft/Classes/Textures.h"
 #include "Minecraft/Classes/Font.h"
 #include "Minecraft/Classes/ProgressRenderer.h"
@@ -265,7 +265,7 @@ struct Minecraft {
     undefined8 field_360;
     ParticleEngine * particleEngine;
     User * user;
-    std::basic_string<wchar_t> website;
+    basic_string<wchar_t> website;
     undefined8 field_416;
     undefined1 field_424;
     undefined1 field_425;

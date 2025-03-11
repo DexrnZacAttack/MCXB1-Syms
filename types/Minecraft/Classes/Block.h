@@ -1,4 +1,4 @@
-#include "Minecraft/Classes/std/std%3A%3Abasic_string%3Cwchar_t%3E.h"
+#include "Minecraft/Classes/std/basic_string%3Cwchar_t%3E.h"
 #include "Minecraft/Classes/Material.h"
 #include "Minecraft/Classes/MaterialColor.h"
 #include "Minecraft/Classes/BlockState.h"
@@ -9,7 +9,7 @@ struct Block {
     undefined field_13;
     undefined field_14;
     undefined field_15;
-    std::basic_string<wchar_t> * name; // guessed
+    basic_string<wchar_t> * name; // guessed
     undefined field_24;
     undefined field_25;
     undefined field_26;

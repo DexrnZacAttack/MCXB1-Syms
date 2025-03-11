@@ -1,6 +1,6 @@
-#include "Minecraft/Classes/std/std%3A%3Abasic_string%3Cwchar_t%3E.h"
+#include "Minecraft/Classes/std/basic_string%3Cwchar_t%3E.h"
 struct User {
-    std::basic_string<wchar_t> name;
-    std::basic_string<wchar_t> session;
-    std::basic_string<wchar_t> field_64;
+    basic_string<wchar_t> name;
+    basic_string<wchar_t> session;
+    basic_string<wchar_t> field_64;
 } // PlaceHolder Class Structure

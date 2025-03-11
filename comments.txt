@@ -12423,6 +12423,7 @@ Library: Visual Studio 2015 Release;3;
 1403636af;SparseLightStorage::staticCtor;3;
 14036ac00;GUESSED: Most methods that try to add a data walker for minecarts with container storage call this.;3;
 1404ca3d0;ServerConnection::NewIncomingSocket got inlined;3;
+14057e5b0;FJ_CheckBox::_HandleUpdateLabel and FJ_CheckBox::HandleUpdateLabel all thunk to this;3;
 1406957a0;Library Function - Single Match
  public: virtual void * __ptr64 __cdecl Concurrency::details::_AsyncTaskCollection::`scalar deleting destructor'(unsigned int) __ptr64
 

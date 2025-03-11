@@ -1,4 +1,4 @@
-#include "Minecraft/Classes/std/std%3A%3Abasic_string%3Cwchar_t%3E.h"
+#include "Minecraft/Classes/std/basic_string%3Cwchar_t%3E.h"
 #include "Minecraft/Classes/Minecraft.h"
 struct Gui {
     undefined4 field_0;
@@ -103,7 +103,7 @@ struct Gui {
     undefined field_109;
     undefined field_110;
     undefined field_111;
-    std::basic_string<wchar_t> field_112;
+    basic_string<wchar_t> field_112;
     undefined field_144;
     undefined field_145;
     undefined field_146;
@@ -218,7 +218,7 @@ struct Gui {
     undefined field_293;
     undefined field_294;
     undefined field_295;
-    std::basic_string<wchar_t> field_296;
+    basic_string<wchar_t> field_296;
     undefined field_328;
     undefined field_329;
     undefined field_330;

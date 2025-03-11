@@ -1,11 +1,11 @@
-#include "Minecraft/Classes/std/std%3A%3Abasic_string%3Cwchar_t%3E.h"
+#include "Minecraft/Classes/std/basic_string%3Cwchar_t%3E.h"
 #include "Minecraft/Classes/fuiFile.h"
 #include "Minecraft/Enums/EMiniGameId.h"
 #include "Minecraft/Classes/FUI/Controls/UIControl.h"
 #include "Minecraft/Classes/FUI/Controls/UIControl_Button.h"
 struct UIScene_FullscreenProgress {
     undefined * * field_0;
-    std::basic_string<wchar_t> field_8;
+    basic_string<wchar_t> field_8;
     fuiFile * field_40;
     undefined field_48;
     undefined field_49;
@@ -205,7 +205,7 @@ struct UIScene_FullscreenProgress {
     undefined field_405;
     undefined field_406;
     undefined field_407;
-    std::basic_string<wchar_t> * field_408;
+    basic_string<wchar_t> * field_408;
     undefined field_416;
     undefined field_417;
     undefined field_418;
@@ -223,7 +223,7 @@ struct UIScene_FullscreenProgress {
     undefined field_430;
     undefined field_431;
     ulonglong field_432;
-    std::basic_string<wchar_t> * field_440;
+    basic_string<wchar_t> * field_440;
     undefined field_448;
     undefined field_449;
     undefined field_450;
@@ -2232,5 +2232,5 @@ struct UIScene_FullscreenProgress {
     undefined field_3421;
     undefined field_3422;
     undefined field_3423;
-    std::basic_string<wchar_t> field_3424;
+    basic_string<wchar_t> field_3424;
 } // PlaceHolder Class Structure

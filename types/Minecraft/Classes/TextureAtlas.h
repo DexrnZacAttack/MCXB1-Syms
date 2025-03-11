@@ -1,4 +1,4 @@
-#include "Minecraft/Classes/std/std%3A%3Abasic_string%3Cwchar_t%3E.h"
+#include "Minecraft/Classes/std/basic_string%3Cwchar_t%3E.h"
 #include "Minecraft/Classes/BufferedImage.h"
 struct TextureAtlas {
     undefined * * field_0;
@@ -18,8 +18,8 @@ struct TextureAtlas {
     undefined field_31;
     undefined8 field_32;
     ulonglong field_40;
-    std::basic_string<wchar_t> field_48;
-    std::basic_string<wchar_t> field_80;
+    basic_string<wchar_t> field_48;
+    basic_string<wchar_t> field_80;
     bool field_112;
     undefined field_113;
     undefined field_114;

@@ -1,5 +1,5 @@
 #include "Minecraft/Classes/Packets/Packet.h"
-#include "Minecraft/Classes/std/std%3A%3Abasic_string%3Cwchar_t%3E.h"
+#include "Minecraft/Classes/std/basic_string%3Cwchar_t%3E.h"
 struct ServerboundPreLoginPacket : public Packet {
     void * field_24;
     ulonglong field_32;
@@ -10,5 +10,5 @@ struct ServerboundPreLoginPacket : public Packet {
     undefined field_45;
     undefined field_46;
     undefined field_47;
-    std::basic_string<wchar_t> playerName;
+    basic_string<wchar_t> playerName;
 } // PlaceHolder Class Structure

@@ -1,10 +1,10 @@
-#include "Minecraft/Classes/std/std%3A%3Abasic_string%3Cwchar_t%3E.h"
+#include "Minecraft/Classes/std/basic_string%3Cwchar_t%3E.h"
 struct UIStringCore {
     undefined8 field_0;
     undefined8 field_8;
     undefined8 field_16;
     undefined8 field_24;
-    std::basic_string<wchar_t> * field_32;
+    basic_string<wchar_t> * field_32;
     undefined field_40;
     undefined field_41;
     undefined field_42;

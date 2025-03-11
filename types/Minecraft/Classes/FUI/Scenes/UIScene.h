@@ -1,9 +1,9 @@
-#include "Minecraft/Classes/std/std%3A%3Abasic_string%3Cwchar_t%3E.h"
+#include "Minecraft/Classes/std/basic_string%3Cwchar_t%3E.h"
 #include "Minecraft/Classes/fuiFile.h"
 #include "Minecraft/Classes/FUI/UILayer.h"
 struct UIScene {
     void * * vftable;
-    std::basic_string<wchar_t> field_8;
+    basic_string<wchar_t> field_8;
     fuiFile * fuiFile;
     undefined field_48;
     undefined field_49;

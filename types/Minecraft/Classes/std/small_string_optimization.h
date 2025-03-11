@@ -1,5 +1,5 @@
-#include "wchar_t[8].h"
+#include "char[16].h"
 union small_string_optimization {
-    wchar_t * stringPtr;
-    wchar_t[8] sso;
+    char * ptr;
+    char[16] string;
 }

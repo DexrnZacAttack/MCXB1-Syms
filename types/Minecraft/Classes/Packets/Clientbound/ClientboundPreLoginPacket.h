@@ -1,5 +1,5 @@
 #include "Minecraft/Classes/Packets/Packet.h"
-#include "Minecraft/Classes/std/std%3A%3Abasic_string%3Cwchar_t%3E.h"
+#include "Minecraft/Classes/std/basic_string%3Cwchar_t%3E.h"
 struct ClientboundPreLoginPacket : public Packet {
     void * field_24;
     ulonglong field_32;
@@ -25,7 +25,7 @@ struct ClientboundPreLoginPacket : public Packet {
     undefined field_90;
     undefined field_91;
     undefined4 field_92;
-    std::basic_string<wchar_t> * field_96;
+    basic_string<wchar_t> * field_96;
     undefined field_104;
     undefined field_105;
     undefined field_106;
