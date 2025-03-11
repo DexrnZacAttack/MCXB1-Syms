@@ -1,6 +1,7 @@
 #include "Minecraft/Classes/DataFixerUpper.h"
 #include "Minecraft/Classes/Timer.h"
 #include "Minecraft/Classes/LevelRenderer.h"
+#include "Other/std/shared_ptr%3CMultiplayerLocalPlayer%3E[4].h"
 #include "Minecraft/Classes/ParticleEngine.h"
 #include "Minecraft/Classes/User.h"
 #include "Minecraft/Classes/std/basic_string%3Cwchar_t%3E.h"
@@ -22,7 +23,7 @@
 #include "Minecraft/Classes/FrameTimer.h"
 #include "Minecraft/Classes/ClientMasterGameMode.h"
 struct Minecraft {
-    DataFixerUpper * dfu;
+    DataFixerUpper * dfu; // DataFuckerUpper
     undefined8 field_8;
     void * field_16;
     void * field_24;
@@ -43,56 +44,7 @@ struct Minecraft {
     undefined field_117;
     undefined field_118;
     undefined field_119;
-    void * field_120;
-    void * field_128;
-    undefined field_136;
-    undefined field_137;
-    undefined field_138;
-    undefined field_139;
-    undefined field_140;
-    undefined field_141;
-    undefined field_142;
-    undefined field_143;
-    undefined field_144;
-    undefined field_145;
-    undefined field_146;
-    undefined field_147;
-    undefined field_148;
-    undefined field_149;
-    undefined field_150;
-    undefined field_151;
-    undefined field_152;
-    undefined field_153;
-    undefined field_154;
-    undefined field_155;
-    undefined field_156;
-    undefined field_157;
-    undefined field_158;
-    undefined field_159;
-    undefined field_160;
-    undefined field_161;
-    undefined field_162;
-    undefined field_163;
-    undefined field_164;
-    undefined field_165;
-    undefined field_166;
-    undefined field_167;
-    undefined field_168;
-    undefined field_169;
-    undefined field_170;
-    undefined field_171;
-    undefined field_172;
-    undefined field_173;
-    undefined field_174;
-    undefined field_175;
-    undefined field_176;
-    undefined field_177;
-    undefined field_178;
-    undefined field_179;
-    undefined field_180;
-    undefined field_181;
-    undefined field_182;
-    undefined field_183;
+    shared_ptr<MultiplayerLocalPlayer>[4] localPlayers;
     void * field_184;
     undefined field_192;
     undefined field_193;
@@ -196,20 +148,14 @@ struct Minecraft {
     void * field_672;
     void * field_680;
     void * field_688;
-    undefined2 * field_696;
-    void * field_704;
-    undefined8 field_712;
-    ulonglong field_720;
+    basic_string<wchar_t> field_696;
     undefined4 field_728;
     undefined1 field_732;
     undefined field_733;
     undefined field_734;
     undefined field_735;
-    undefined2 * field_736;
-    void * field_744;
-    undefined8 field_752;
-    ulonglong field_760;
-    undefined8 field_768;
+    basic_string<wchar_t> field_736;
+    longlong field_768;
     undefined4 field_776;
     undefined4 field_780;
     FrameTimer * frameTimer;

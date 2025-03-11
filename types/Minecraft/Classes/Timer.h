@@ -1,5 +1,5 @@
 struct Timer {
-    float tickRate;
+    float tickSpeed;
     undefined field_4;
     undefined field_5;
     undefined field_6;

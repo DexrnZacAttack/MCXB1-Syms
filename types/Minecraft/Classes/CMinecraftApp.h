@@ -2128,4 +2128,7 @@ struct CMinecraftApp {
     undefined field_2535;
     EMiniGameId firstMiniGameType;
     undefined field_2540;
+    undefined field_2541;
+    undefined field_2542;
+    undefined field_2543;
 } // PlaceHolder Class Structure
