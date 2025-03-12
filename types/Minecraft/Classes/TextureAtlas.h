@@ -1,24 +1,19 @@
+// 'NoneType' object has no attribute 'getPathName'
+// 'NoneType' object has no attribute 'getPathName'
+// 'NoneType' object has no attribute 'getPathName'
+// 'NoneType' object has no attribute 'getPathName'
 #include "Minecraft/Classes/std/basic_string%3Cwchar_t%3E.h"
 #include "Minecraft/Classes/BufferedImage.h"
+#include "Minecraft/Classes/TextureAtlasSprite.h"
 struct TextureAtlas {
-    undefined * * field_0;
+    void * * vftable;
     int field_8;
     undefined field_12;
     undefined field_13;
     undefined field_14;
     undefined field_15;
-    undefined8 * * * field_16;
-    undefined field_24;
-    undefined field_25;
-    undefined field_26;
-    undefined field_27;
-    undefined field_28;
-    undefined field_29;
-    undefined field_30;
-    undefined field_31;
-    undefined8 field_32;
-    ulonglong field_40;
-    basic_string<wchar_t> field_48;
+    basic_string<wchar_t> atlasName; // MC class's TextureAtlas instance has this set to "terrain" by default
+    basic_string<wchar_t> atlasPath; // MC class's TextureAtlas instance has this set to "textures/blocks/" by default
     basic_string<wchar_t> field_80;
     bool field_112;
     undefined field_113;
@@ -30,20 +25,10 @@ struct TextureAtlas {
     undefined field_119;
     undefined field_120;
     undefined field_121;
-    undefined field_122;
-    undefined field_123;
-    undefined field_124;
-    undefined field_125;
+    int field_122;
     undefined field_126;
     undefined field_127;
-    undefined field_128;
-    undefined field_129;
-    undefined field_130;
-    undefined field_131;
-    undefined field_132;
-    undefined field_133;
-    undefined field_134;
-    undefined field_135;
+    pointer field_128;
     undefined field_136;
     undefined field_137;
     undefined field_138;
@@ -52,48 +37,13 @@ struct TextureAtlas {
     undefined field_141;
     undefined field_142;
     undefined field_143;
-    undefined field_144;
-    undefined field_145;
-    undefined field_146;
-    undefined field_147;
-    undefined field_148;
-    undefined field_149;
-    undefined field_150;
-    undefined field_151;
-    undefined field_152;
-    undefined field_153;
-    undefined field_154;
-    undefined field_155;
-    undefined field_156;
-    undefined field_157;
-    undefined field_158;
-    undefined field_159;
-    undefined field_160;
-    undefined field_161;
-    undefined field_162;
-    undefined field_163;
-    undefined field_164;
-    undefined field_165;
-    undefined field_166;
-    undefined field_167;
-    undefined field_168;
-    undefined field_169;
-    undefined field_170;
-    undefined field_171;
-    undefined field_172;
-    undefined field_173;
-    undefined field_174;
-    undefined field_175;
-    undefined field_176;
-    undefined field_177;
-    undefined field_178;
-    undefined field_179;
-    undefined field_180;
-    undefined field_181;
-    undefined field_182;
-    undefined field_183;
+    pointer field_144;
+    pointer field_152;
+    pointer field_160;
+    longlong field_168; // was 7 during dynanalysis
+    longlong field_176; // was 8 during dynanalysis
     BufferedImage * field_184;
-    undefined8 field_192;
+    TextureAtlasSprite * missingno; //  lead to (what appeared to be) a TextureAtlasSprite with pointer inside(?) to wchar_t[] "missingno"... wonder if this is the missing texture
     undefined8 field_200;
     undefined8 field_208;
     undefined8 field_216;

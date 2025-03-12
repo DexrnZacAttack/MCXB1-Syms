@@ -1,0 +1,3 @@
+struct EntityBlock {
+    void * * vftable;
+}

@@ -1,0 +1,3 @@
+struct Command {
+    void * * vftable;
+}

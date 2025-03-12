@@ -1,0 +1,3 @@
+struct BlockBehaviors {
+    void * * vftable;
+}

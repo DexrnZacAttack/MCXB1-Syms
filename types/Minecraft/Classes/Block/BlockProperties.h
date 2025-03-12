@@ -1,0 +1,3 @@
+struct BlockProperties {
+    void * * vftable;
+}

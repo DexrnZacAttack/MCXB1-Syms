@@ -1,0 +1,3 @@
+struct ConsoleInputSource {
+    void * * vftable;
+}
