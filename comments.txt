@@ -11609,6 +11609,10 @@
 14022aad5;Fireball::addDataWalkers;1;
 14036ab20;thunk?;1;
 14036acd5;seems to be some kind of minecart container thing;1;
+14039d7af;Dimension::getBiomeSource;1;
+14039d7e3;Dimension::getBiomeSource;1;
+14039d987;Dimension::getBiomeSource;1;
+1404195da;xyz: 8, 64, 8;1;
 1404c9ba5;Arrow::addDataWalkers;1;
 1404c9e75;Fireball::addDataWalkers;1;
 1405104d3;getMaxX;1;
@@ -12425,6 +12429,7 @@ Library: Visual Studio 2015 Release;3;
 1403632b4;VillagePieces::Smithy::staticCtor;3;
 1403636af;SparseLightStorage::staticCtor;3;
 14036ac00;GUESSED: Most methods that try to add a data walker for minecarts with container storage call this.;3;
+14036b8d0;I am NOT making std::vector<std::shared_ptr<Entity>>;3;
 1404ca3d0;ServerConnection::NewIncomingSocket got inlined;3;
 14057e5b0;FJ_CheckBox::_HandleUpdateLabel and FJ_CheckBox::HandleUpdateLabel all thunk to this;3;
 1406957a0;Library Function - Single Match
@@ -44934,6 +44939,7 @@ Library: Visual Studio 2015 Release;3;
 140f98e50;struct Platform::Details::__abi_FunctorCapture<class <lambda_70037ee14670a1a1c1df81d1f866bee0>,void,struct Windows::Foundation::IAsyncOperation<class Windows::Xbox::System::GetTokenAndSignatureResult ^ __ptr64> ^ __ptr64,enum Windows::Foundation::AsyncStatus> RTTI Type Descriptor;3;
 140f98f30;class Windows::Foundation::AsyncOperationCompletedHandler<class Windows::Xbox::System::GetTokenAndSignatureResult ^ __ptr64> RTTI Type Descriptor;3;
 140f98fb8;class HttpCallback RTTI Type Descriptor;3;
+140f9d200;maybe this is where world data is stored;3;
 140fcd2d8;closest thing I could find related to getAverageFps in Render;3;
 140fe7a98;maybe GlStateManager::instance?;3;
 141084060;Rsrc_Manifest_1_409 Size of resource: 0x91 bytes;3;

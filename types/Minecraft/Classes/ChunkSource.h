@@ -1,3 +1,3 @@
 struct ChunkSource {
-    longlong field_0;
+    void * * vftable;
 }

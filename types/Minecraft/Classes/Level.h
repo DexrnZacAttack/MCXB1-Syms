@@ -3,7 +3,7 @@
 #include "Minecraft/Classes/ChunkSource.h"
 #include "Minecraft/Classes/LevelData.h"
 struct Level {
-    undefined * * field_0;
+    void * * vftable;
     undefined4 field_8;
     undefined field_12;
     undefined field_13;
@@ -42,7 +42,7 @@ struct Level {
     undefined field_53;
     undefined field_54;
     undefined field_55;
-    undefined8 field_56;
+    undefined8 entities;
     undefined8 field_64;
     undefined8 field_72;
     undefined8 field_80;
