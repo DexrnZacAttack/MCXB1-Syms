@@ -1,25 +1,12 @@
+// 'NoneType' object has no attribute 'getPathName'
+#include "Minecraft/Classes/std/enable_shared_from_this/enable_shared_from_this%3Cclass_Entity%3E.h"
+#include "Minecraft/Classes/CommandSender.h"
 #include "Minecraft/Classes/Level.h"
 #include "Minecraft/Classes/Vec3.h"
 #include "Minecraft/Classes/SynchedEntityData.h"
+#include "Minecraft/Types/std%3A%3Awstring.h"
 #include "undefined[16].h"
-struct Entity {
-    longlong field_0;
-    undefined field_8;
-    undefined field_9;
-    undefined field_10;
-    undefined field_11;
-    undefined field_12;
-    undefined field_13;
-    undefined field_14;
-    undefined field_15;
-    undefined field_16;
-    undefined field_17;
-    undefined field_18;
-    undefined field_19;
-    undefined field_20;
-    undefined field_21;
-    undefined field_22;
-    undefined field_23;
+struct Entity : public enable_shared_from_this<class_Entity>,  /* inherit */ public CommandSender {
     undefined field_24;
     undefined field_25;
     undefined field_26;
@@ -60,10 +47,10 @@ struct Entity {
     undefined field_85;
     undefined field_86;
     undefined field_87;
-    Level * field_88;
-    double field_96;
-    double field_104;
-    double field_112;
+    Level * level;
+    double posx; // maybe should be vec3 as well? Mirrors position
+    double posy;
+    double posz;
     Vec3 position;
     longlong field_144;
     longlong field_152;
@@ -93,8 +80,8 @@ struct Entity {
     undefined field_236;
     undefined field_237;
     undefined2 field_238;
-    undefined4 field_240;
-    undefined4 field_244;
+    float field_240;
+    float field_244;
     undefined field_248;
     undefined field_249;
     undefined field_250;
@@ -102,15 +89,15 @@ struct Entity {
     undefined8 field_252;
     undefined8 field_260;
     undefined4 field_268;
-    undefined4 field_272;
+    float field_272;
     undefined field_276;
     undefined field_277;
     undefined field_278;
     undefined field_279;
-    double field_280;
+    double field_280; // another vec3? Mirrors position
     double field_288;
     double field_296;
-    undefined4 field_304;
+    float field_304;
     undefined field_308;
     undefined field_309;
     undefined field_310;
@@ -169,28 +156,8 @@ struct Entity {
     undefined field_439;
     longlong field_440;
     longlong field_448;
-    undefined2 * field_456;
-    undefined field_464;
-    undefined field_465;
-    undefined field_466;
-    undefined field_467;
-    undefined field_468;
-    undefined field_469;
-    undefined field_470;
-    undefined field_471;
-    undefined8 field_472;
-    ulonglong field_480;
-    undefined2 * field_488;
-    undefined field_496;
-    undefined field_497;
-    undefined field_498;
-    undefined field_499;
-    undefined field_500;
-    undefined field_501;
-    undefined field_502;
-    undefined field_503;
-    undefined8 field_504;
-    ulonglong field_512;
+    std::wstring field_456;
+    std::wstring field_488; // was "0"
     ulonglong * field_520;
     longlong field_528;
     ulonglong field_536;
@@ -203,14 +170,7 @@ struct Entity {
     undefined field_565;
     undefined field_566;
     undefined field_567;
-    undefined field_568;
-    undefined field_569;
-    undefined field_570;
-    undefined field_571;
-    undefined field_572;
-    undefined field_573;
-    undefined field_574;
-    undefined field_575;
+    pointer field_568;
     undefined8 field_576;
     bool teleported; // Created by retype action
     undefined field_585;
@@ -234,4 +194,8 @@ struct Entity {
     undefined8 field_680;
     undefined8 field_688;
     undefined4 field_696;
+    undefined field_700;
+    undefined field_701;
+    undefined field_702;
+    undefined field_703;
 } // PlaceHolder Class Structure

@@ -1,2 +1,29 @@
-struct MultiplayerLocalPlayer {
+#include "Minecraft/Classes/LocalPlayer.h"
+struct MultiplayerLocalPlayer : public LocalPlayer {
+    int field_2712;
+    int field_2716;
+    undefined field_2720;
+    undefined field_2721;
+    undefined field_2722;
+    undefined field_2723;
+    undefined field_2724;
+    undefined field_2725;
+    undefined field_2726;
+    undefined field_2727;
+    undefined field_2728;
+    undefined field_2729;
+    undefined field_2730;
+    undefined field_2731;
+    undefined field_2732;
+    undefined field_2733;
+    undefined field_2734;
+    undefined field_2735;
+    undefined field_2736;
+    undefined field_2737;
+    undefined field_2738;
+    undefined field_2739;
+    undefined field_2740;
+    undefined field_2741;
+    undefined field_2742;
+    undefined field_2743;
 }
