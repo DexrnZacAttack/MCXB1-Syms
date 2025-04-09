@@ -60,4 +60,20 @@ struct ConsoleSaveFileSplit : public ConsoleSaveFileCommon {
     ulonglong field_200;
     ulonglong field_208;
     ulonglong field_216;
+    undefined field_224;
+    undefined field_225;
+    undefined field_226;
+    undefined field_227;
+    undefined field_228;
+    undefined field_229;
+    undefined field_230;
+    undefined field_231;
+    undefined field_232;
+    undefined field_233;
+    undefined field_234;
+    undefined field_235;
+    undefined field_236;
+    undefined field_237;
+    undefined field_238;
+    undefined field_239;
 } // PlaceHolder Class Structure

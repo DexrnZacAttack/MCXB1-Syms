@@ -1,31 +1,25 @@
+#include "Minecraft/Classes/BlockPos.h"
 #include "Minecraft/Classes/AABB.h"
 struct ConsoleSchematicFile {
-    undefined8 field_0;
-    undefined8 field_8;
-    undefined8 field_16;
-    undefined8 field_24;
-    undefined8 field_32;
+    undefined field_0;
+    undefined field_1;
+    undefined field_2;
+    undefined field_3;
+    int field_4;
+    int field_8;
+    int field_12;
+    BlockPos * * field_16;
+    BlockPos * * field_24;
+    BlockPos * * field_32;
     undefined8 field_40;
     undefined8 field_48;
     undefined8 field_56;
-    undefined8 field_64;
-    undefined4 field_72;
-    undefined field_76;
-    undefined field_77;
-    undefined field_78;
-    undefined field_79;
-    undefined8 field_80;
-    undefined4 field_88;
-    undefined field_92;
-    undefined field_93;
-    undefined field_94;
-    undefined field_95;
-    undefined8 field_96;
-    undefined4 field_104;
-    undefined field_108;
-    undefined field_109;
-    undefined field_110;
-    undefined field_111;
+    void * field_64;
+    ulonglong field_72;
+    void * field_80;
+    ulonglong field_88;
+    void * field_96;
+    ulonglong field_104;
     undefined2 field_112;
     undefined field_114;
     undefined field_115;
@@ -66,7 +60,7 @@ struct ConsoleSchematicFile {
     undefined field_239;
     undefined8 field_240;
     undefined8 field_248;
-    undefined field_256;
+    undefined1 field_256;
     undefined field_257;
     undefined field_258;
     undefined field_259;

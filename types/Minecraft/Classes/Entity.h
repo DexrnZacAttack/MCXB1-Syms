@@ -156,7 +156,7 @@ struct Entity : public enable_shared_from_this<class_Entity>,  /* inherit */ pub
     undefined field_439;
     longlong field_440;
     longlong field_448;
-    std::wstring field_456;
+    std::wstring field_456; // was "0", but string after (inside the pointer) had what looked to be entity id
     std::wstring field_488; // was "0"
     ulonglong * field_520;
     longlong field_528;

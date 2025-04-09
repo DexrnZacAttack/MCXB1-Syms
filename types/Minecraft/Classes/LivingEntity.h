@@ -15,7 +15,7 @@
 struct LivingEntity : public Entity {
     pointer field_704;
     pointer field_712;
-    undefined4 field_720;
+    float field_720;
     undefined field_724;
     undefined field_725;
     undefined field_726;

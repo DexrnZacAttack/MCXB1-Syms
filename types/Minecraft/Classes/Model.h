@@ -1,13 +1,6 @@
 #include "Minecraft/Classes/ModelPart.h"
 struct Model {
-    undefined field_0;
-    undefined field_1;
-    undefined field_2;
-    undefined field_3;
-    undefined field_4;
-    undefined field_5;
-    undefined field_6;
-    undefined field_7;
+    void * * vftable;
     undefined field_8;
     undefined field_9;
     undefined field_10;

@@ -1,0 +1,33 @@
+struct Cube {
+    undefined8 field_0;
+    undefined4 field_8;
+    undefined field_12;
+    undefined field_13;
+    undefined field_14;
+    undefined field_15;
+    undefined8 field_16;
+    undefined4 field_24;
+    undefined field_28;
+    undefined field_29;
+    undefined field_30;
+    undefined field_31;
+    float field_32;
+    float field_36;
+    float field_40;
+    float field_44;
+    float field_48;
+    float field_52;
+    int field_56;
+    int field_60;
+    undefined *64 field_64;
+    undefined field_72;
+    undefined field_73;
+    undefined field_74;
+    undefined field_75;
+    undefined field_76;
+    undefined field_77;
+    undefined field_78;
+    undefined field_79;
+    undefined8 field_80;
+    ulonglong field_88;
+} // PlaceHolder Class Structure

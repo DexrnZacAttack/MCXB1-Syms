@@ -141,4 +141,16 @@ struct CConsoleMinecraftApp : public CMinecraftApp {
     undefined field_2726;
     undefined field_2727;
     undefined4 field_2728;
+    undefined field_2732;
+    undefined field_2733;
+    undefined field_2734;
+    undefined field_2735;
+    undefined field_2736;
+    undefined field_2737;
+    undefined field_2738;
+    undefined field_2739;
+    undefined field_2740;
+    undefined field_2741;
+    undefined field_2742;
+    undefined field_2743;
 } // PlaceHolder Class Structure

@@ -44939,6 +44939,7 @@ Library: Visual Studio 2015 Release;3;
 140f98e50;struct Platform::Details::__abi_FunctorCapture<class <lambda_70037ee14670a1a1c1df81d1f866bee0>,void,struct Windows::Foundation::IAsyncOperation<class Windows::Xbox::System::GetTokenAndSignatureResult ^ __ptr64> ^ __ptr64,enum Windows::Foundation::AsyncStatus> RTTI Type Descriptor;3;
 140f98f30;class Windows::Foundation::AsyncOperationCompletedHandler<class Windows::Xbox::System::GetTokenAndSignatureResult ^ __ptr64> RTTI Type Descriptor;3;
 140f98fb8;class HttpCallback RTTI Type Descriptor;3;
+140f9a198;array of Block classes during dynanalysis;3;
 140f9d200;maybe this is where world data is stored;3;
 140fcd2d8;closest thing I could find related to getAverageFps in Render;3;
 140fe7a98;maybe GlStateManager::instance?;3;

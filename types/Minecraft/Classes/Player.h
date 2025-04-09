@@ -13,6 +13,7 @@
 // 'NoneType' object has no attribute 'getPathName'
 // 'NoneType' object has no attribute 'getPathName'
 // 'NoneType' object has no attribute 'getPathName'
+// 'NoneType' object has no attribute 'getPathName'
 #include "Minecraft/Classes/LivingEntity.h"
 #include "Minecraft/Types/std%3A%3Awstring.h"
 struct Player : public LivingEntity {
@@ -305,14 +306,7 @@ struct Player : public LivingEntity {
     undefined field_1893;
     undefined field_1894;
     undefined field_1895;
-    undefined field_1896;
-    undefined field_1897;
-    undefined field_1898;
-    undefined field_1899;
-    undefined field_1900;
-    undefined field_1901;
-    undefined field_1902;
-    undefined field_1903;
+    pointer field_1896;
     undefined field_1904;
     undefined field_1905;
     undefined field_1906;
@@ -321,7 +315,7 @@ struct Player : public LivingEntity {
     undefined field_1909;
     undefined field_1910;
     undefined field_1911;
-    std::wstring field_1912;
+    std::wstring name2; // was the same as the name field
     undefined field_1944;
     undefined field_1945;
     undefined field_1946;

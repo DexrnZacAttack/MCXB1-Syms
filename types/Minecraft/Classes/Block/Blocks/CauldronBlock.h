@@ -1,3 +1,3 @@
-#include "BaseEntityBlock.h"
+#include "Minecraft/Classes/BaseEntityBlock.h"
 struct CauldronBlock : public BaseEntityBlock {
 }
